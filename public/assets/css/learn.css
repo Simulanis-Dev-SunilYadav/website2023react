@@ -1,0 +1,121 @@
+.grtskilled{
+    background: #ffffff34;
+    border-radius: 50px;
+    padding: 4px 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.learncard {
+    padding: 20px 20px 30px;
+    background: #f7f7f7;
+    border-radius: 5px;
+}
+
+.learncard img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.images img{  
+    width: 100%;
+    height: 230px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+
+.learncard p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    margin-top: 4px;
+}
+.learncard p span {
+    color: #4e4e4e;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.learncard h3{
+    color: #262626 !important;
+    font-size: 17px;
+    margin-bottom: 0px;
+    padding: 3px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.learncard .descripttfe{
+    font-size: 14px;
+    margin-bottom: 0;
+    width: 90%;
+    color: #5e5e5e;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding: 5px 0 0 0;
+    font-weight: 600;
+}
+.platformicon ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    margin: 0px;
+    margin-left: 10px;
+}
+.platformicon ul li img{
+    width: 24px;
+    margin: 0px 2px;
+}
+.tirtrrf{
+    display: flex;
+    justify-content: space-between;
+}
+.userviews{
+    font-size: 13px !important;
+    color: #a1a1a1 !important;
+}
+.cartbtnrrt{
+    display: flex;
+}
+.cartbtnrrt .btn{
+    width: 50%;
+    margin: 0px 2px;
+}
+.images{
+    position: relative;
+}
+.pricingtrt {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: #fff;
+    padding: 3px 10px;
+    margin-bottom: 0px;
+    line-height: .9;
+    border-radius: 5px;
+}
+
+.pricingtrt h6 {
+    color: #262626;
+    font-size: 18px;
+    line-height: .9;
+    margin-bottom: 0px;
+}
+
+.bannerslider .learncard {
+    max-width: 300px;
+}
+.learnvourses .learncard{
+    padding: 15px !important;
+}

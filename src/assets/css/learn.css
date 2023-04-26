@@ -1,0 +1,325 @@
+.grtskilled{
+    background: #ffffff34;
+    border-radius: 50px;
+    padding: 4px 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.learncard {
+    background: #f5f5f5;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.detailpagecard{
+    border: 1px solid #ccc;
+}
+
+.learncard img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.images img{  
+    width: 100%;
+    height: 230px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+.learncard p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    margin-top: 4px;
+}
+.learncard p span {
+    color: #4e4e4e;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.learncard h3{
+    color: #262626;
+    font-size: 17px;
+    margin-bottom: 0px;
+    padding: 3px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.learncard .descripttfe{
+    font-size: 14px;
+    margin-bottom: 0;
+    width: 100%;
+    color: #5e5e5e;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding: 5px 0 0 0;
+    font-weight: 600;
+}
+.platformicon ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    margin: 0px;
+    margin-left: 10px;
+}
+.platformicon ul li img{
+    width: 24px;
+    margin: 0px 2px;
+}
+.tirtrrf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userviews{
+    font-size: 13px !important;
+    color: #a1a1a1 !important;
+}
+.cartbtnrrt{
+    display: flex;
+}
+.cartbtnrrt .btn{
+    width: 50%;
+    margin: 0px 2px;
+}
+.images{
+    position: relative;
+}
+.pricingtrt {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: #fff;
+    padding: 3px 10px;
+    margin-bottom: 0px;
+    line-height: .9;
+    border-radius: 5px;
+}
+
+.pricingtrt h6 {
+    color: #262626;
+    font-size: 18px;
+    line-height: .9;
+    margin-bottom: 0px;
+}
+
+.bannerslider .learncard {
+    max-width: 300px;
+}
+.learnvourses .images img{  
+    height: 170px;
+}
+
+.learnvourses .learncard {
+    padding: 15px;
+}
+.learnvourses  .cartbtnrrt .btn {
+    font-size: 12px;
+}
+.learnvourses .platformicon ul li img {
+    width: 22px;
+}
+
+.learnvourses .learncard .descripttfe {
+    font-size: 13px;
+    color: #878787;
+}
+.form-check-input{
+    margin-bottom: 0px;
+}
+
+.form-check {
+    margin-bottom: 0px;
+}
+.filterleft .platformcheckd {
+    padding: 15px;
+    background: #f7f7f7;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.filtertab{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.filtertab a {
+    background: transparent !important;
+    border: 1px solid #ccc !important;
+    margin-right: 5px !important;
+    padding: 5px 10px !important;
+    border-radius: 0px !important;
+}
+.filtertab a:hover{
+    background: #ca373c !important;
+    color: #fff !important;
+    border-color: #ca373c !important;
+}
+.filtertab .active {
+    background: #ca373c !important;
+    color: #fff !important;
+    border-color: #ca373c !important;
+}
+.filtertab p{
+    font-weight: 600;
+    color: #363636;
+}
+
+.fsetiond form{
+    margin-right: 15px;
+    position: relative;
+}
+.filtertext{
+    font-size: 13px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+.filtertext svg{
+    width: 18px;
+}
+form.searchfilter svg {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+.filterpartright .form-control{
+    padding: 7px 15px 8px 40px;
+    border-radius: 0px;
+}
+.wprocessef img{
+    width: 120px;
+    margin-bottom: 7px;
+}
+
+.detailbg{
+    background: url('../../../public/assets/img/page-header-bg.svg')no-repeat bottom left
+}
+.platformicon{
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+.detailbg h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.detailpagecard {
+    position: relative;
+    top: -250px;
+    z-index: 1;
+}
+
+.mt--235{
+    margin-top: -235px;
+}
+
+.descriptlearn .feature-tab-list-2 li a.active {
+    background: transparent;
+    color: #363636;
+    border-color: transparent;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 3px solid #2f3b78;
+    border-radius: 0px;
+    margin: 0px 10px;
+    font-weight: 700;
+}
+.descriptlearn .feature-tab-list-2 li a {
+    font-size: 15px;
+    font-weight: 400;
+    background: transparent;
+    border: none;
+    padding: 0px;
+    margin: 0px 10px;
+    border-bottom: 3px solid transparent;
+    transition: all 0s ease-in-out;
+}
+.descriptlearn .feature-tab-list-2 li a:hover{
+    background: transparent !important;
+    color: inherit !important;
+    border-radius: 0px;
+}
+.cdesriptiondf p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #747474;
+}
+
+.mt-180{
+    margin-top: 154px;
+}
+table.table tbody tr td {
+    font-size: 14px;
+}
+
+.descriptlearn .accordion-body{
+    font-size: 14px;
+}
+
+.learncard.detailpagecard {
+    padding: 20px 20px 20px;
+}
+.learnbg .learncard{
+    background: #f5f5f5;
+    border-radius: 5px;
+    padding: 15px 15px 30px;
+}
+.learnbg .learncard h3{
+    color: #262626 !important;
+}
+
+.btn-warning.text-dark {
+    color: #000 !important;
+}
+
+
+.listviewcourse .learncard{
+  display: flex;
+}
+.images{
+  flex: .35;
+}
+.conseccourse{
+  flex: .65;
+}
+.conseccourse {
+    flex: .65 1;
+    padding-left: 15px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    left: -10px !important;
+}
+.industrydft svg{
+    width: 18px;
+    margin-right: 2px;
+}
+.industrydft {
+    margin-right: 10px;
+}
+
+.listviewcourse .learncard h3 {
+    font-size: 19px;
+}
+.dynamicassist{
+    /* background: url('assets/img/shape/color-particles-2.svg')no-repeat center top */
+    background: url('../img/shape/color-particles-2.svg')no-repeat center top
+}

@@ -1,0 +1,7 @@
+.career .feature-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.career .careericondf img{
+    width: 65px;
+    margin-bottom: 10px;
+}
