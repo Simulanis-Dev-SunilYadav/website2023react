@@ -446,6 +446,9 @@ img.fawfrt.img-fluid.feet {
     .workflowcard .h5{
         color: #fff;
     }
+    [data-bs-theme="dark"] .form-control, [data-bs-theme="dark"] .custom-select, [data-bs-theme="dark"] .form-select {
+        border: 1px solid rgb(255 255 255 / 12%);
+    }
     [data-bs-theme] .workflowcard{
         background: #111827;
     }
@@ -897,11 +900,28 @@ img.fawfrt.img-fluid.feet {
   left: 45%;
 }
 
+.casestdbg{
+    background: url(../img/event/up-e-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-
-
-
-
+.shotstdescase p{
+    margin-bottom: .5rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+.shotstdescase strong{
+    color: #fff;
+}
+.coesetup{
+    background: url('../img/hero-9-img.png')no-repeat center center;
+}
+.labosetsup img{
+    height: 270px;
+    width: 100%;
+    object-fit: cover;
+}
 
 
 
@@ -987,26 +1007,81 @@ img.fawfrt.img-fluid.feet {
     background: url('../img/hero-dot-bg.png')no-repeat center right;
 }
 
+.creatorbg{
+    background: url('../img/shape/color-particles-2.svg')no-repeat center top
+}
+
+.aboutbg{
+    background: url('../img/event/event-h-bg.jpg')no-repeat center center/cover; padding-top: 70px !important;
+}
+.journerybg{
+    background: url('../img/shape/dot-dot-wave-shape.svg')no-repeat left bottom;
+}
+.awardsbg{
+    background: url('../img/page-header-bg.svg')no-repeat center left
+}
+
+.awards .article-category {
+    position: absolute;
+    left: 20px;
+    bottom: 46px;
+    border-radius: 0px;
+    z-index: 1;
+}
+
+.awards .limit-2-line-text {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
 
 
+.awardsimg{
+    position: absolute;
+    bottom: -122px;
+    z-index: 1;
+    right: 0px;
+    max-width: 430px;
+    width: 100%;
+}
 
+.loginbg{
+    background: url('../img/page-header-bg.svg')no-repeat right bottom;
+}
+.logignty{
+    background:url('../img/login/login2.png');
+    background-position: center; 
+    background-size: cover;
+}
 
+.partnerbg{
+    background: url('../img/page-header-bg.svg')no-repeat bottom left
+}
+.careerbg{
+    background: url('../img/career/carrer.png')no-repeat bottom right
+}
 
+.mk-business-reports img{
+    width: 40px;
+}
 
+/* .careerbg{
+    background: url('../img/shape/contact-us-bg.svg')no-repeat center bottom
+} */
 
+.becomeapartner .form-group {
+    margin-bottom: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.salessupport{
+    background: url('../img/page-header-bg.svg')no-repeat bottom right;
+}
+.sauthor{
+    display: flex;
+    align-items: center;
+}
+.sauthor img{
+    width: 70px;
+}
 
 
 

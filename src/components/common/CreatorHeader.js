@@ -1,10 +1,10 @@
 import React from 'react'
 
-function EngageHeader() {
+function CreatorHeader() {
   return (
     <>
-        <header className="main-header position-absolute w-100">
-            <nav className="navbar navbar-expand-xl navbar-dark z-10">
+      <header className="main-header position-absolute w-100">
+            <nav className="navbar navbar-expand-xl navbar-light z-10">
                 <div className="container d-flex align-items-center justify-content-lg-between position-relative">
                     <a href="/" className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
                         <img src="assets/img/logo_white.png" alt="logo" className="img-fluid logo-white" />
@@ -134,8 +134,7 @@ function EngageHeader() {
                                             </a>                                        
                                             <a href="/become-partner" className="dropdown-link">
                                                 <div className="drop-title">Become a partner</div>
-                                            </a>                                                                            
-                                                                                                   
+                                            </a>                                                                                                                                       
                                         </div>
                                     </div>
                                 </div>
@@ -168,30 +167,183 @@ function EngageHeader() {
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Products
                             </a>
-                            <div className="dropdown-menu border-0 rounded-custom mt-0 shadow py-0 bg-white">
+                            <div className="dropdown-menu border-0 rounded-custom mt-0 shadow py-0 bg-white homepage-list-wrapper">
                                 <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
-                                    <div className="dropdown-grid-item bg-white radius-left-side radius-right-side">
-                                            <a href="#" className="dropdown-link">
-                                                <div className="dropdown-info">
-                                                    <p>Learn </p>
-                                                </div>
-                                            </a>
-                                            <a href="productity.html" className="dropdown-link">
-                                                <div className="dropdown-info">
-                                                    <p>Assist </p>
-                                                </div>
-                                            </a>
-                                            <a href="/creator" className="dropdown-link">
-                                                <div className="dropdown-info">
-                                                    <p>Create </p>
-                                                </div>
-                                            </a>
-                                            <a href="engage" className="dropdown-link">
-                                                <div className="dropdown-info">
-                                                    <p>Engage </p>
-                                                </div>
-                                            </a>
-                                        </div>
+                                    <div className="dropdown-grid-item bg-white radius-left-side">
+                                        <h6 className="drop-heading">View All</h6>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>Learn </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>Academy </p>
+                                            </div>
+                                        </a>
+                                        <a href="metaverse.html" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>Metaverse</p>
+                                            </div>
+                                        </a>
+                                        <a href="productity.html" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>Productivity Suite  </p>
+                                            </div>
+                                        </a>
+                                        <a href="creator.html" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>Creator </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>Simulators </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>Sanalexa </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>Quizbox </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div className="dropdown-grid-item bg-light-subtle">
+                                        <h6 className="drop-heading">By Industry</h6>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>Automotive </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>Pharmaceutical </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>Oil & Gas
+                                                </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>
+                                                   Paint & Chemicals
+                                                </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>
+                                                    Real Estate
+                                                </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>
+                                                    Education
+                                                </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>
+                                                    Safety Training for manufacturing
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div className="dropdown-grid-item bg-white radius-right-side">
+                                        <h6 className="drop-heading">By Technology</h6>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>
+                                                    AR
+                                                </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>
+                                                    VR
+                                                </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>
+                                                    MR
+                                                </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>Walkthrough</p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>Videos & Animations</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div className="dropdown-grid-item bg-white radius-right-side">
+                                        <h6 className="drop-heading">By Category</h6>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>
+                                                    Hardware
+                                                </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>
+                                                    Software
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div className="dropdown-grid-item bg-white radius-right-side">
+                                        <h6 className="drop-heading">By Role</h6>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>
+                                                    Industrial Workers
+                                                </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>
+                                                    Office Workers
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div className="dropdown-grid-item bg-white radius-right-side">
+                                        <h6 className="drop-heading">By Assistance</h6>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>
+                                                    Remote 
+                                                </p>
+                                            </div>
+                                        </a>
+                                        <a href="#" className="dropdown-link">
+                                            <div className="dropdown-info">
+                                                <p>
+                                                    Dynamic
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -233,28 +385,28 @@ function EngageHeader() {
                                     <div className="dropdown-grid-item bg-white radius-left-side">
                                         <h6 className="drop-heading">Overview</h6>
                                         <a href="#" className="dropdown-link px-0">
-                                            <div className="drop-title">Our story</div>
+                                            <div className="drop-title">Our Story</div>
                                         </a>
                                         <a href="#" className="dropdown-link px-0">
-                                            <div className="drop-title">Our values</div>
+                                            <div className="drop-title">Our Values</div>
                                         </a>
                                         <a href="#" className="dropdown-link">
-                                            <div className="drop-title">Why us ?</div>
+                                            <div className="drop-title">Why Us ?</div>
                                         </a>
                                     </div>
-                                    <div className="dropdown-grid-item radius-right-side">
-                                        <h6 className="drop-heading">Awards & achievements</h6>
+                                    <div className="dropdown-grid-item radius-right-side bg-light-subtle">
+                                        <h6 className="drop-heading">Awards & Achievements</h6>
                                         <a href="#" className="dropdown-link">
-                                            <div className="drop-title">Our wall</div>
+                                            <div className="drop-title">Our Wall</div>
                                         </a>
                                         <a href="#" className="dropdown-link">
                                             <div className="drop-title">Career</div>
                                         </a>
                                     </div>
-                                    <div className="dropdown-grid-item radius-right-side">
-                                        <h6 className="drop-heading">What's new</h6>
+                                    <div className="dropdown-grid-item radius-right-side bg-light-subtle">
+                                        <h6 className="drop-heading">What's New</h6>
                                         <a href="#" className="dropdown-link">
-                                            <div className="drop-title">News room</div>
+                                            <div className="drop-title">News Room</div>
                                         </a>
                                         <a href="#" className="dropdown-link">
                                             <div className="drop-title">Blogs</div>
@@ -268,8 +420,8 @@ function EngageHeader() {
                         </li>
                     </ul>
                     <div className="action-btns mt-4 ps-3">
-                        <a href="#" className="btn btn-outline-primary me-2">Sign in</a>
-                        <a href="#" className="btn btn-primary">Get started</a>
+                        <a href="#" className="btn btn-outline-primary me-2">Sign In</a>
+                        <a href="#" className="btn btn-primary">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -342,11 +494,11 @@ function EngageHeader() {
                 </div>
             </div>
 
-            <nav className="navbar navbar-expand-xl navbar-dark p-0 sticky-header z-10 bottomheader">
+            <nav className="navbar navbar-expand-xl navbar-light p-0 sticky-header z-10 btmheaderlight  bottomheader">
                 <div className="container d-flex align-items-center justify-content-lg-between position-relative">
                     <a href="./"><img src="assets/img/logosmall.png" className="logoscroolshow" alt="" /></a>
                     <a href="productity.html" className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
-                        <h4 className="text-white1 mb-0 d-flex align-items-center"> Metaverse</h4>
+                        <h4 className="mb-0 d-flex align-items-center"> Creator</h4>
                     </a>
                     <a className="navbar-toggler position-absolute right-0 border-0" href="#offcanvasWithBackdrop1">
                         <i className="fa fa-square-caret-down" data-bs-target="#offcanvasWithBackdrop1" aria-controls="offcanvasWithBackdrop1"
@@ -363,7 +515,7 @@ function EngageHeader() {
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
-                                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white productdropdoen">
+                                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white homepage-list-wrapper productdropdoen">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
                                             <a href="/case-study" className="dropdown-link">
@@ -387,12 +539,12 @@ function EngageHeader() {
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Help</a>
-                                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white productdropdoen">
+                                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white homepage-list-wrapper productdropdoen">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
                                             <a href="#" className="dropdown-link">
                                                 <div className="dropdown-info">
-                                                    <p>faq </p>
+                                                    <p>F.A.Q </p>
                                                 </div>
                                             </a>
                                             <a href="#" className="dropdown-link">
@@ -419,4 +571,4 @@ function EngageHeader() {
   )
 }
 
-export default EngageHeader
+export default CreatorHeader

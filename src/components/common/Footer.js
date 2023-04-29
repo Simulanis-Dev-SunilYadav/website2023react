@@ -9,10 +9,11 @@ function Footer() {
                     <div className="row justify-content-between">
                         <div className="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
                             <div className="footer-single-col">
-                                <div className="footer-single-col mb-4">
+                                {/* <div className="footer-single-col mb-4">
                                     <img src="assets/img/logo_white.png" alt="logo" className="img-fluid logo-white" />
                                     <img src="assets/img/logo_color.png" alt="logo" className="img-fluid logo-color" />
-                                </div>
+                                </div> */}
+                                <h3>Newsletter</h3>
                                 <p>Our latest news, articles, and resources, we will sent to
                                     your inbox weekly.</p>
 
@@ -20,16 +21,6 @@ function Footer() {
                                     <input type="text" className="input-newsletter form-control me-2" placeholder="Enter your email" name="email" required="" autocomplete="off" />
                                     <input type="submit" value="Subscribe" data-wait="Please wait..." className="btn btn-primary mt-3 mt-lg-0 mt-md-0" />
                                 </form>
-                                <div className="ratting-wrap mt-4">
-                                    <h6 className="mb-0">10/10 Overall rating</h6>
-                                    <ul className="list-unstyled rating-list list-inline mb-0">
-                                        <li className="list-inline-item"><i className="fas fa-star text-warning"></i></li>
-                                        <li className="list-inline-item"><i className="fas fa-star text-warning"></i></li>
-                                        <li className="list-inline-item"><i className="fas fa-star text-warning"></i></li>
-                                        <li className="list-inline-item"><i className="fas fa-star text-warning"></i></li>
-                                        <li className="list-inline-item"><i className="fas fa-star text-warning"></i></li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
                         <div className="col-md-12 col-lg-7 mt-4 mt-md-0 mt-lg-0">
@@ -39,13 +30,9 @@ function Footer() {
                                         <h3>Products</h3>
                                         <ul className="list-unstyled footer-nav-list mb-lg-0">
                                             <li><a href="#" className="text-decoration-none">Learn</a></li>
-                                            <li><a href="#" className="text-decoration-none">Academy</a></li>
-                                            <li><a href="#" className="text-decoration-none">Metaverse</a></li>
-                                            <li><a href="#" className="text-decoration-none">Productivity Suite</a></li>
-                                            <li><a href="#" className="text-decoration-none">Creator</a>
-                                            </li>
-                                            <li><a href="#" className="text-decoration-none">Simulators</a></li>
-                                            <li><a href="#" className="text-decoration-none">Sanalexa</a></li>
+                                            <li><a href="#" className="text-decoration-none">Assist</a></li>
+                                            <li><a href="#" className="text-decoration-none">Create</a></li>
+                                            <li><a href="#" className="text-decoration-none">Engage</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -53,25 +40,21 @@ function Footer() {
                                     <div className="footer-single-col">
                                         <h3>Industry</h3>
                                         <ul className="list-unstyled footer-nav-list mb-lg-0">
-                                            <li><a href="#" className="text-decoration-none">Automotive</a></li>
                                             <li><a href="#" className="text-decoration-none">Pharmaceutical</a></li>
+                                            <li><a href="#" className="text-decoration-none">Automotive</a></li>
                                             <li><a href="#" className="text-decoration-none">Oil & Gas</a></li>
-                                            <li><a href="#" className="text-decoration-none">Paints & Chemicals</a></li>
-                                            <li><a href="#" className="text-decoration-none">Real Estate</a></li>
-                                            <li><a href="#" className="text-decoration-none">Education</a></li>
-                                            <li><a href="#" className="text-decoration-none">Safety Training</a></li>
+                                            <li><a href="#" className="text-decoration-none">Safety training</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
                                     <div className="footer-single-col">
-                                        <h3>Technology</h3>
+                                        <h3>Resources</h3>
                                         <ul className="list-unstyled footer-nav-list mb-lg-0">
-                                            <li><a href="#" className="text-decoration-none">AR</a></li>
-                                            <li><a href="#" className="text-decoration-none">VR</a></li>
-                                            <li><a href="#" className="text-decoration-none">MR</a></li>
-                                            <li><a href="#" className="text-decoration-none">Walkthrough</a></li>
-                                            <li><a href="#" className="text-decoration-none">Videos & Animations</a></li>
+                                            <li><a href="/case-study" className="text-decoration-none">Case studies</a></li>
+                                            <li><a href="#" className="text-decoration-none">Use cases</a></li>
+                                            <li><a href="https://www.youtube.com/c/SimulanisSolutions/videos" target='_blank' className="text-decoration-none">Videos</a></li>
+                                            <li><a href="/blogs" className="text-decoration-none">Blogs</a></li>
                                         </ul>
                                     </div>
                                 </div>

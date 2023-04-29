@@ -13,6 +13,20 @@ import LearnDetail from './components/home/products/learn/LearnDetail'
 import CourseList from './components/home/products/learn/CourseList'
 import Blogs from './components/blogs/Blogs'
 import BlogsDetail from './components/blogs/BlogsDetail'
+import About from './components/aboutus/About'
+import Awards from './components/aboutus/Awards'
+import Login from './components/authentication/Login'
+import SignUp from './components/authentication/SignUp'
+import BecomePartner from './components/partner/BecomePartner'
+import Partnerships from './components/partner/Partnerships'
+import Career from './components/career/Career'
+import CareerDetail from './components/career/CareerDetail'
+import ApplyNow from './components/career/ApplyNow'
+import CaseStudy from './components/case_study/CaseStudy'
+import SalesSupport from './components/support/SalesSupport'
+import TechnicalSupport from './components/support/TechnicalSupport'
+import CaseStudyDetail from './components/case_study/CaseStudyDetail'
+import CoeSetup from './components/services/CoeSetup'
 
 
 function Routers() {
@@ -32,6 +46,35 @@ function Routers() {
             {/* Blogs */}
             <Route path="/blogs" element={<Blogs/>}/>
             <Route path="/blogs-detail" element={<BlogsDetail/>}/>
+
+            {/* About */}
+            <Route path="/about" element={<About/>}/>
+            <Route path="/awards" element={<Awards/>}/>
+
+            {/* Authentication */}
+            <Route path="/login" element={<Login/>}/>
+            <Route path="/signup" element={<SignUp/>}/>
+
+            {/* Patrtner */}
+            <Route path="/partnerships" element={<Partnerships/>} />
+            <Route path="/become-partner" element={<BecomePartner/>} />
+
+            {/* Career */}
+            <Route path="/career" element={<Career/>}/>
+            <Route path="/career-detail" element={<CareerDetail/>}/>
+            <Route path="/applynow" element={<ApplyNow/>}/>
+
+            {/* Case Study */}
+            <Route path="case-study" element={<CaseStudy/>} />
+            <Route path="case-study-detail" element={<CaseStudyDetail/>} />
+            
+            {/* Support */}
+            <Route path="sales-support" element={<SalesSupport/>}/>
+            <Route path="technical-support" element={<TechnicalSupport/>}/>
+
+            {/* Services */}
+            <Route path="/coe-setup" element={<CoeSetup/>}/>
+
         </Routes>
     </>
   )

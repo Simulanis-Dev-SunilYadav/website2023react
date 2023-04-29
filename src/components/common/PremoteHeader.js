@@ -63,14 +63,17 @@ function PremoteHeader() {
                                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/coe-setup" className="dropdown-link">
                                                 <div className="drop-title">COE Set Up</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
                                                 <div className="drop-title">VR Custom Solutions</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
-                                                <div className="drop-title">Bespoke Video Services <br /> (2D, 3D and 360)</div>
+                                                <div className="drop-title">Videos & animations</div>
+                                            </a>
+                                            <a href="http://academy.simulanis.io/" target='_blank' className="dropdown-link">
+                                                <div className="drop-title">Become in Expert</div>
                                             </a>
                                         </div>
                                     </div>
@@ -87,7 +90,7 @@ function PremoteHeader() {
                                             <a href="#" className="dropdown-link">
                                                 <div className="drop-title">Success Stories</div>
                                             </a>
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/case-study" className="dropdown-link">
                                                 <div className="drop-title">Case Studies</div>
                                             </a>
                                         </div>
@@ -118,7 +121,7 @@ function PremoteHeader() {
                                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
-                                            <a href="about-us.html" className="dropdown-link px-0">
+                                            <a href="/about" className="dropdown-link px-0">
                                                 <div className="drop-title">Our Journey So Far</div>
                                             </a>
                                             <a href="#" className="dropdown-link px-0">
@@ -138,7 +141,7 @@ function PremoteHeader() {
                             <div className="tt-theme-light" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Light"><i className="flaticon-sun-1 fs-lg"></i></div>
                             <div className="tt-theme-dark" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Dark"><i className="flaticon-moon-1 fs-lg"></i></div>
                         </a> 
-                        <a href="#" className="btn btn-link text-decoration-none me-2 px-3 d-none d-md-block d-lg-block">Get in Touch</a>
+                        <a href="#" className="btn btn-link text-decoration-none me-2 px-3 d-none d-md-block d-lg-block">Get in touch</a>
                         <a href="#" className="btn btn-outline-danger btn-sm text-decoration-none me-2 d-none d-md-block d-lg-block">Sign In</a>
                         <a href="#" className="btn btn-primary btn-sm btn-link text-decoration-none  d-none d-md-block d-lg-block">Store</a>
                     </div>
@@ -195,7 +198,7 @@ function PremoteHeader() {
                                         <a href="#" className="dropdown-link">
                                             <div className="dropdown-info"><p>Client Feedback</p></div>
                                         </a>
-                                        <a href="#" className="dropdown-link">
+                                        <a href="/case-study" className="dropdown-link">
                                             <div className="dropdown-info"><p>Case Study</p></div>
                                         </a>
                                     </div>
@@ -357,9 +360,9 @@ function PremoteHeader() {
                                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white homepage-list-wrapper productdropdoen">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/case-study" className="dropdown-link">
                                                 <div className="dropdown-info">
-                                                    <p>Case Studies </p>
+                                                    <p>Case studies </p>
                                                 </div>
                                             </a>
                                             <a href="#" className="dropdown-link">
@@ -399,7 +402,7 @@ function PremoteHeader() {
                     </div>
                     <div className="action-btns text-end ms-4 me-lg-0 d-flex align-items-center">
                         <a href="#" className="btn btn-outline-warning btn-sm d-none d-md-block d-lg-block freedemo">Book Demo</a>
-                        <a href="#" className="btn btn-link d-none d-md-block d-lg-block afotherbtnbottom px-3">Get In Touch</a>
+                        <a href="#" className="btn btn-link d-none d-md-block d-lg-block afotherbtnbottom px-3">Get in touch</a>
                         <a href="#" className="btn btn-outline-danger mx-2 btn-sm d-none d-md-block d-lg-block afotherbtnbottom">Sign in</a>
                         <a href="#" className="btn btn-primary btn-sm d-none d-md-block d-lg-block afotherbtnbottom">Store</a>
                     </div>
