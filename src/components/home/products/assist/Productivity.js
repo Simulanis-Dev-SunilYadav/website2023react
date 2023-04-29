@@ -137,8 +137,8 @@ function Productivity() {
                                                     <span>Download for Windows</span>
                                                 </a>
                                             </div>
-                                            <Link to="/remote-assist" class="btn btn-outline-danger read-more-link text-decoration-none mt-4">Know More
-                                                <i class="fas fa-arrow-right ms-2"></i></Link>
+                                            <a href="/remote-assist" class="btn btn-outline-danger read-more-link text-decoration-none mt-4">Know More
+                                                <i class="fas fa-arrow-right ms-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">

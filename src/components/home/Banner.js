@@ -8,7 +8,7 @@ function Banner() {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-10">
                         <div className="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
-                            <h1 className="fw-bold display-3">Transforming learning and productivity  <span className="text-danger ">with Simulanis</span></h1>
+                            <h1 className="fw-bold display-3">Transforming <span className='text-danger'>learning and productivity </span> with Simulanis</h1>
                             <p className="lead">
                                Pioneering a revolution in immersive learning and redefining the future of work across industries
                             </p>

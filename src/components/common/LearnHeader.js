@@ -59,14 +59,17 @@ function LearnHeader() {
                                 <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                                     <div class="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div class="dropdown-grid-item bg-white">
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/coe-setup" className="dropdown-link">
                                                 <div className="drop-title">COE set up</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
                                                 <div className="drop-title">VR custom solutions</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
-                                                <div className="drop-title">Bespoke video services</div>
+                                                <div className="drop-title">Videos & animations</div>
+                                            </a>
+                                            <a href="http://academy.simulanis.io/" target='_blank' className="dropdown-link">
+                                                <div className="drop-title">Become in Expert</div>
                                             </a>
                                         </div>
                                     </div>
@@ -81,10 +84,10 @@ function LearnHeader() {
                                                 <div class="drop-title">Clients</div>
                                             </a>
                                             <a href="#" class="dropdown-link">
-                                                <div class="drop-title">Success Stories</div>
+                                                <div class="drop-title">Success stories</div>
                                             </a>
-                                            <a href="#" class="dropdown-link">
-                                                <div class="drop-title">Case Studies</div>
+                                            <a href="/case-study" class="dropdown-link">
+                                                <div class="drop-title">Case studies</div>
                                             </a>
                                         </div>
                                     </div>
@@ -113,28 +116,25 @@ function LearnHeader() {
                                 <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                                     <div class="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div class="dropdown-grid-item bg-white">
-                                            <a href="about-us.html" className="dropdown-link px-0">
+                                            <a href="/about" className="dropdown-link px-0">
                                                 <div className="drop-title">Our journey so far</div>
                                             </a>
                                             <a href="#" className="dropdown-link px-0">
                                                 <div className="drop-title">Our values</div>
                                             </a>
-                                            <a href="awards.html" className="dropdown-link">
+                                            <a href="/awards" className="dropdown-link">
                                                 <div className="drop-title">Credibility</div>
                                             </a>
-                                            <a href="career.html" className="dropdown-link">
+                                            <a href="/career" className="dropdown-link">
                                                 <div className="drop-title">Join us</div>
                                             </a>   
-                                            <a href="partners.html" className="dropdown-link">
+                                            <a href="/partnerships" className="dropdown-link">
                                                 <div className="drop-title">Partnerships</div>
                                             </a>                                        
-                                            <a href="partners.html" className="dropdown-link">
+                                            <a href="/become-partner" className="dropdown-link">
                                                 <div className="drop-title">Become a partner</div>
                                             </a>                                                                            
-                                                                        
-                                            <a href="#" className="dropdown-link">
-                                                <div className="drop-title">Simulanis Academy</div>
-                                            </a>                                       
+                                                                                                           
                                         </div>
                                     </div>
                                 </div>
@@ -146,7 +146,7 @@ function LearnHeader() {
                             <div class="tt-theme-light" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Light"><i class="flaticon-sun-1 fs-lg"></i></div>
                             <div class="tt-theme-dark" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Dark"><i class="flaticon-moon-1 fs-lg"></i></div>
                         </a> 
-                        <a href="#" class="btn btn-link text-decoration-none me-2 px-3 d-none d-md-block d-lg-block">Get in Touch</a>
+                        <a href="#" class="btn btn-link text-decoration-none me-2 px-3 d-none d-md-block d-lg-block">Get in touch</a>
                         <a href="#" class="btn btn-outline-danger btn-sm text-decoration-none me-2 d-none d-md-block d-lg-block">Sign In</a>
                         <a href="#" class="btn btn-primary btn-sm btn-link text-decoration-none  d-none d-md-block d-lg-block">Store</a>
                     </div>
@@ -204,7 +204,7 @@ function LearnHeader() {
                                         <a href="#" class="dropdown-link">
                                             <div class="dropdown-info"><p>Client Feedback</p></div>
                                         </a>
-                                        <a href="#" class="dropdown-link">
+                                        <a href="/case-study" class="dropdown-link">
                                             <div class="dropdown-info"><p>Case Study</p></div>
                                         </a>
                                     </div>
@@ -366,9 +366,9 @@ function LearnHeader() {
                                 <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white homepage-list-wrapper productdropdoen">
                                     <div class="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div class="dropdown-grid-item bg-white">
-                                            <a href="#" class="dropdown-link">
+                                            <a href="/case-study" class="dropdown-link">
                                                 <div class="dropdown-info">
-                                                    <p>Case Studies </p>
+                                                    <p>Case studies </p>
                                                 </div>
                                             </a>
                                             <a href="#" class="dropdown-link">
@@ -408,7 +408,7 @@ function LearnHeader() {
                     </div>
                     <div class="action-btns text-end ms-4 me-lg-0 d-flex align-items-center">
                         <a href="#" class="btn btn-outline-warning btn-sm d-none d-md-block d-lg-block freedemo">Join for free</a>
-                        <a href="#" class="btn btn-link d-none d-md-block d-lg-block afotherbtnbottom px-3">Get In Touch</a>
+                        <a href="#" class="btn btn-link d-none d-md-block d-lg-block afotherbtnbottom px-3">Get in touch</a>
                         <a href="#" class="btn btn-outline-danger mx-2 btn-sm d-none d-md-block d-lg-block afotherbtnbottom">Join for free</a>
                         <a href="#" class="btn btn-primary btn-sm d-none d-md-block d-lg-block afotherbtnbottom">Store</a>
                     </div>

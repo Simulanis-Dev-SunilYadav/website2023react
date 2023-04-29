@@ -4,9 +4,9 @@ function ProductivityHeader() {
   return (
     <>
           <header className="main-header position-absolute w-100">
-            <nav className="navbar navbar-expand-xl navbar-dark py-0 z-10">
+            <nav className="navbar navbar-expand-xl navbar-dark z-10">
                 <div className="container d-flex align-items-center justify-content-lg-between position-relative">
-                    <a href="./" className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
+                    <a href="/" className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
                         <img src="assets/img/logo_white.png" alt="logo" className="img-fluid logo-white" />
                         <img src="assets/img/logo_color.png" alt="logo" className="img-fluid logo-color" />
                     </a>
@@ -19,57 +19,37 @@ function ProductivityHeader() {
                         <ul className="nav col-12 col-md-auto justify-content-center main-menu">
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
-                                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white homepage-list-wrapper">
+                                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/" className="dropdown-link">
                                                 <span className="demo-list"><i className="fa fa-desktop fa-2x"></i> </span>
                                                 <div className="dropdown-info">
-                                                    <div className="drop-title ctitle">Simulanis</div>
-                                                    <h6 className="mb-0">Learn</h6>
-                                                    <p className="pdescrip">Lorem Ipsum is simply dummy text</p>
+                                                    <div className="drop-title ctitle">Simulanis Learning Suite</div>
+                                                    <h6 className="">Learn</h6>
                                                 </div>
                                             </a>
-                                            <a href="productity.html" className="dropdown-link">
+                                            <a href="/assist" className="dropdown-link">
                                                 <span className="demo-list"> <i className="fa-sharp fa-solid fa-phone fa-2x"></i> </span>
                                                 <div className="dropdown-info">
-                                                    <div className="drop-title ctitle">Simulanis</div>
-                                                    <h6 className="mb-0">Assist</h6>
-                                                    <p className="pdescrip">Lorem Ipsum is simply dummy text</p>
+                                                    <div className="drop-title ctitle">Simulanis Assistance Suite</div>
+                                                    <h6 className="">Assist</h6>
                                                 </div>
                                             </a>
-                                            <a href="creator.html" className="dropdown-link">
+                                            <a href="/creator" className="dropdown-link">
                                                 <span className="demo-list"> <i className="fa fa-image fa-2x"></i> </span>
                                                 <div className="dropdown-info">
-                                                    <div className="drop-title ctitle">Simulanis</div>
-                                                    <h6 className="mb-0">Create</h6>
-                                                    <p className="pdescrip">Lorem Ipsum is simply dummy text</p>
+                                                    <div className="drop-title ctitle">Simulanis Creator Suite</div>
+                                                    <h6 className="">Create</h6>
                                                 </div>
                                             </a>
-                                            <a href="metaverse.html" className="dropdown-link">
+                                            <a href="/engage" className="dropdown-link">
                                                 <span className="demo-list"> <i className="fa fa-vr-cardboard fa-2x"></i> </span>
                                                 <div className="dropdown-info">
-                                                    <div className="drop-title ctitle">Simulanis</div>
-                                                    <h6 className="mb-0">Engage</h6>
-                                                    <p className="pdescrip">Lorem Ipsum is simply dummy text</p>
+                                                    <div className="drop-title ctitle">Simulanis Metaverse Suite</div>
+                                                    <h6 className="">Engage</h6>
                                                 </div>
                                             </a>
-                                            {/* <a href="#" className="dropdown-link">
-                                                <span className="demo-list"> <i className="fa fa-cog fa-2x"></i> </span>
-                                                <div className="dropdown-info">
-                                                    <div className="drop-title ctitle">Simulanis</div>
-                                                    <h6 className="mb-0">Control</h6>
-                                                    <p className="pdescrip">Lorem Ipsum is simply dummy text</p>
-                                                </div>
-                                            </a>
-                                            <a href="#" className="dropdown-link">
-                                                <span className="demo-list"> <i className="fa fa-laptop fa-2x"></i> </span>
-                                                <div className="dropdown-info">
-                                                    <div className="drop-title ctitle">Simulanis</div>
-                                                    <h6 className="mb-0">Monitor</h6>
-                                                    <p className="pdescrip">Lorem Ipsum is simply dummy text</p>
-                                                </div>
-                                            </a>  */}
                                         </div>
                                     </div>
                                 </div>
@@ -79,14 +59,17 @@ function ProductivityHeader() {
                                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
-                                            <a href="#" className="dropdown-link">
-                                                <div className="drop-title">COE Set Up</div>
+                                            <a href="/coe-setup" className="dropdown-link">
+                                                <div className="drop-title">COE set up</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
-                                                <div className="drop-title">VR Custom Solutions</div>
+                                                <div className="drop-title">VR custom solutions</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
-                                                <div className="drop-title">Bespoke Video Services <br /> (2D, 3D and 360)</div>
+                                                <div className="drop-title">Videos & animations</div>
+                                            </a>
+                                            <a href="http://academy.simulanis.io/" target='_blank' className="dropdown-link">
+                                                <div className="drop-title">Become in Expert</div>
                                             </a>
                                         </div>
                                     </div>
@@ -94,17 +77,17 @@ function ProductivityHeader() {
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Customers</a>
-                                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+                                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white ">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
                                             <a href="#" className="dropdown-link">
                                                 <div className="drop-title">Clients</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
-                                                <div className="drop-title">Success Stories</div>
+                                                <div className="drop-title">Success stories</div>
                                             </a>
-                                            <a href="#" className="dropdown-link">
-                                                <div className="drop-title">Case Studies</div>
+                                            <a href="/case-study" className="dropdown-link">
+                                                <div className="drop-title">Case studies</div>
                                             </a>
                                         </div>
                                     </div>
@@ -115,33 +98,44 @@ function ProductivityHeader() {
                                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
-                                            <a href="partners.html" className="dropdown-link">
-                                                <div className="drop-title">Partners</div>
+                                            <a href="#" className="dropdown-link">
+                                                <div className="drop-title">Sales support</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
-                                                <div className="drop-title">Hardware Support</div>
+                                                <div className="drop-title">Technical support</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
-                                                <div className="drop-title">Career</div>
+                                                <div className="drop-title">Customer success</div>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
                             </li>
+ 
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About us</a>
+                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
                                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
-                                            <a href="about-us.html" className="dropdown-link px-0">
-                                                <div className="drop-title">Our Journey So Far</div>
+                                            <a href="/about" className="dropdown-link px-0">
+                                                <div className="drop-title">Our journey so far</div>
                                             </a>
                                             <a href="#" className="dropdown-link px-0">
-                                                <div className="drop-title">Our Values</div>
+                                                <div className="drop-title">Our values</div>
                                             </a>
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/awards" className="dropdown-link">
                                                 <div className="drop-title">Credibility</div>
-                                            </a>                                       
+                                            </a>
+                                            <a href="/career" className="dropdown-link">
+                                                <div className="drop-title">Join us</div>
+                                            </a>   
+                                            <a href="/partnerships" className="dropdown-link">
+                                                <div className="drop-title">Partnerships</div>
+                                            </a>                                        
+                                            <a href="/become-partner" className="dropdown-link">
+                                                <div className="drop-title">Become a partner</div>
+                                            </a>                                                                            
+                                                                                                          
                                         </div>
                                     </div>
                                 </div>
@@ -153,9 +147,8 @@ function ProductivityHeader() {
                             <div className="tt-theme-light" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Light"><i className="flaticon-sun-1 fs-lg"></i></div>
                             <div className="tt-theme-dark" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Dark"><i className="flaticon-moon-1 fs-lg"></i></div>
                         </a> 
-                        <a href="#" className="btn btn-link text-decoration-none me-2 px-3 d-none d-md-block d-lg-block">Get in Touch</a>
-                        <a href="#" className="btn btn-outline-danger btn-sm text-decoration-none me-2 d-none d-md-block d-lg-block">Sign In</a>
-                        <a href="#" className="btn btn-primary btn-sm btn-link text-decoration-none  d-none d-md-block d-lg-block">Store</a>
+                        <a href="#" className="btn btn-outline-danger btn-sm text-decoration-none me-2 ms-3 d-none d-md-block d-lg-block">Get in touch</a>
+                        <a href="#" className="btn btn-primary btn-sm btn-link text-decoration-none  d-none d-md-block d-lg-block"><i className="fa fa-cart-shopping"></i> Store</a>
                     </div>
                 </div>
             </nav>
@@ -211,7 +204,7 @@ function ProductivityHeader() {
                                         <a href="#" className="dropdown-link">
                                             <div className="dropdown-info"><p>Client Feedback</p></div>
                                         </a>
-                                        <a href="#" className="dropdown-link">
+                                        <a href="/case-study" className="dropdown-link">
                                             <div className="dropdown-info"><p>Case Study</p></div>
                                         </a>
                                     </div>
@@ -372,12 +365,12 @@ function ProductivityHeader() {
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
-                                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white homepage-list-wrapper productdropdoen">
+                                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white productdropdoen">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/case-study" className="dropdown-link">
                                                 <div className="dropdown-info">
-                                                    <p>Case Studies </p>
+                                                    <p>Case studies </p>
                                                 </div>
                                             </a>
                                             <a href="#" className="dropdown-link">
@@ -396,7 +389,7 @@ function ProductivityHeader() {
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Help</a>
-                                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white homepage-list-wrapper productdropdoen">
+                                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white productdropdoen">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
                                             <a href="#" className="dropdown-link">
@@ -417,7 +410,7 @@ function ProductivityHeader() {
                     </div>
                     <div className="action-btns text-end ms-4 me-lg-0 d-flex align-items-center">
                         <a href="#" className="btn btn-outline-warning btn-sm d-none d-md-block d-lg-block freedemo">Book Demo</a>
-                        <a href="#" className="btn btn-link d-none d-md-block d-lg-block afotherbtnbottom px-3">Get In Touch</a>
+                        <a href="#" className="btn btn-link d-none d-md-block d-lg-block afotherbtnbottom px-3">Get in touch</a>
                         <a href="#" className="btn btn-outline-danger mx-2 btn-sm d-none d-md-block d-lg-block afotherbtnbottom">Sign in</a>
                         <a href="#" className="btn btn-primary btn-sm d-none d-md-block d-lg-block afotherbtnbottom">Store</a>
                     </div>

@@ -24,10 +24,10 @@ function Home() {
                     <div className="col-12">
                         <ul className="nav justify-content-center feature-tab-list mt-0" id="nav-tab" role="tablist">
                             <li className="nav-item" role="presentation">
-                                <a className="nav-link" href="#tab-1" data-bs-toggle="tab" data-bs-target="#tab-1" role="tab" aria-selected="false" tabindex="-1">Learn</a>
+                                <a className="nav-link active" href="#tab-1" data-bs-toggle="tab" data-bs-target="#tab-1" role="tab" aria-selected="false" tabindex="-1">Learn</a>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <a className="nav-link active" href="#tab-2" data-bs-toggle="tab" data-bs-target="#tab-2" role="tab" aria-selected="true">Assist</a>
+                                <a className="nav-link" href="#tab-2" data-bs-toggle="tab" data-bs-target="#tab-2" role="tab" aria-selected="true">Assist</a>
                             </li>
                             <li className="nav-item" role="presentation">
                                 <a className="nav-link" href="#tab-3" data-bs-toggle="tab" data-bs-target="#tab-3" role="tab" aria-selected="false" tabindex="-1">Create</a>
@@ -37,7 +37,7 @@ function Home() {
                             </li>
                         </ul>
                         <div className="tab-content bg-dark text-white rounded-custom" id="nav-tabContent">
-                            <div className="tab-pane fade" id="tab-1" role="tabpanel">
+                            <div className="tab-pane fade active show" id="tab-1" role="tabpanel">
                                 <div className="row justify-content-center text-center p-50 pb-0">
                                     <div className="col-lg-9">
                                         <div className="feature-tab-info">
@@ -49,7 +49,7 @@ function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="tab-pane fade active show" id="tab-2" role="tabpanel">
+                            <div className="tab-pane fade" id="tab-2" role="tabpanel">
                                 <div className="row justify-content-center text-center p-50 pb-0">
                                     <div className="col-lg-9">
                                         <div className="feature-tab-info">
@@ -685,7 +685,7 @@ function Home() {
                         <div className="section-heading text-center my-5 my-lg-0 my-xl-0">
                             <h5 className="h6 text-primary">Credibility</h5>
                             <h2>We are proud to be India's most awarded XR-Metaverse company</h2>
-                            <a href="#" className="mt-4 btn btn-primary">Take a look at our awards gallery</a>
+                            <a href="/awards" className="mt-4 btn btn-primary">Take a look at our awards gallery</a>
                         </div>
                     </div>
                     <div className="col-lg-3">
@@ -749,7 +749,7 @@ function Home() {
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#inthenews" data-bs-toggle="tab" data-bs-target="#inthenews" role="tab" aria-selected="false">
-                                    In the News
+                                    In the news
                                 </a>
                             </li>
                             <li class="nav-item">
