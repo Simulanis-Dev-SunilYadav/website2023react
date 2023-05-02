@@ -63,13 +63,13 @@ function ProductivityHeader() {
                                                 <div className="drop-title">COE set up</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
-                                                <div className="drop-title">VR custom solutions</div>
+                                                <div className="drop-title">Custom solutions</div>
                                             </a>
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/videos-and-animations" className="dropdown-link">
                                                 <div className="drop-title">Videos & animations</div>
                                             </a>
                                             <a href="http://academy.simulanis.io/" target='_blank' className="dropdown-link">
-                                                <div className="drop-title">Become in Expert</div>
+                                                <div className="drop-title">Become an expert</div>
                                             </a>
                                         </div>
                                     </div>
@@ -98,10 +98,10 @@ function ProductivityHeader() {
                                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/sales-support" className="dropdown-link">
                                                 <div className="drop-title">Sales support</div>
                                             </a>
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/technical-support" className="dropdown-link">
                                                 <div className="drop-title">Technical support</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
@@ -375,7 +375,7 @@ function ProductivityHeader() {
                                             </a>
                                             <a href="#" className="dropdown-link">
                                                 <div className="dropdown-info">
-                                                    <p>Use Cases </p>
+                                                    <p>Use cases </p>
                                                 </div>
                                             </a>
                                             <a href="#" className="dropdown-link">
@@ -394,12 +394,12 @@ function ProductivityHeader() {
                                         <div className="dropdown-grid-item bg-white">
                                             <a href="#" className="dropdown-link">
                                                 <div className="dropdown-info">
-                                                    <p>F.A.Q </p>
+                                                    <p>FAQ </p>
                                                 </div>
                                             </a>
                                             <a href="#" className="dropdown-link">
                                                 <div className="dropdown-info">
-                                                    <p>User Manual </p>
+                                                    <p>User manual </p>
                                                 </div>
                                             </a>
                                         </div>

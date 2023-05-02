@@ -1,10 +1,12 @@
 import React from 'react'
-import Headerbd from '../common/Headerbd'
+import Header from '../common/Header'
+import Footer from '../common/Footer'
 
 function BlogsDetail() {
   return (
     <>
-        <Headerbd/>
+        <Header/>
+
         <section class="blog-details ptb-120 pb-40">
             <div class="container">
                 <div class="row justify-content-between mt-3">
@@ -104,7 +106,7 @@ function BlogsDetail() {
                 </div>
             </div>
             <div class="container">
-                <div class="bg-dark ptb-60 px-5 mt-40 position-relative overflow-hidden rounded-custom" style="background: url('assets/img/page-header-bg.svg')no-repeat center bottom">
+                <div class="bg-dark ptb-60 px-5 mt-40 position-relative overflow-hidden rounded-custom">
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-md-9">
                             <div class="subscribe-info-wrap text-center position-relative z-2">
@@ -298,6 +300,7 @@ function BlogsDetail() {
                 </div>
             </div>
         </section>
+        <Footer/>
     </>
   )
 }

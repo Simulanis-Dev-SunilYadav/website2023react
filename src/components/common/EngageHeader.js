@@ -63,13 +63,13 @@ function EngageHeader() {
                                                 <div className="drop-title">COE set up</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
-                                                <div className="drop-title">VR custom solutions</div>
+                                                <div className="drop-title">Custom solutions</div>
                                             </a>
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/videos-and-animations" className="dropdown-link">
                                                 <div className="drop-title">Videos & animations</div>
                                             </a>
                                             <a href="http://academy.simulanis.io/" target='_blank' className="dropdown-link">
-                                                <div className="drop-title">Become in Expert</div>
+                                                <div className="drop-title">Become an expert</div>
                                             </a>
                                         </div>
                                     </div>
@@ -98,10 +98,10 @@ function EngageHeader() {
                                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/sales-support" className="dropdown-link">
                                                 <div className="drop-title">Sales support</div>
                                             </a>
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/technical-support" className="dropdown-link">
                                                 <div className="drop-title">Technical support</div>
                                             </a>
                                             <a href="#" className="dropdown-link">

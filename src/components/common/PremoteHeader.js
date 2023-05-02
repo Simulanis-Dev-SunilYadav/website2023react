@@ -67,13 +67,13 @@ function PremoteHeader() {
                                                 <div className="drop-title">COE Set Up</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
-                                                <div className="drop-title">VR Custom Solutions</div>
+                                                <div className="drop-title">Custom Solutions</div>
                                             </a>
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/videos-and-animations" className="dropdown-link">
                                                 <div className="drop-title">Videos & animations</div>
                                             </a>
                                             <a href="http://academy.simulanis.io/" target='_blank' className="dropdown-link">
-                                                <div className="drop-title">Become in Expert</div>
+                                                <div className="drop-title">Become an expert</div>
                                             </a>
                                         </div>
                                     </div>
@@ -367,7 +367,7 @@ function PremoteHeader() {
                                             </a>
                                             <a href="#" className="dropdown-link">
                                                 <div className="dropdown-info">
-                                                    <p>Use Cases </p>
+                                                    <p>Use cases </p>
                                                 </div>
                                             </a>
                                             <a href="#" className="dropdown-link">
@@ -386,12 +386,12 @@ function PremoteHeader() {
                                         <div className="dropdown-grid-item bg-white">
                                             <a href="#" className="dropdown-link">
                                                 <div className="dropdown-info">
-                                                    <p>F.A.Q </p>
+                                                    <p>FAQ </p>
                                                 </div>
                                             </a>
                                             <a href="#" className="dropdown-link">
                                                 <div className="dropdown-info">
-                                                    <p>User Manual </p>
+                                                    <p>User manual </p>
                                                 </div>
                                             </a>
                                         </div>

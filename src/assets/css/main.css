@@ -29684,7 +29684,7 @@ li.setup-process-item:not(:last-child):before {
   background-color: #0c0800;
 }
 .gr-text {
-  background: linear-gradient(287.85deg, #ff0766 0%, #ff7e5d 95.32%);
+  background: linear-gradient(287.85deg, #ca373c 0%, #ca373c 95.32%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
   background-clip: text;
@@ -30249,9 +30249,9 @@ li.setup-process-item:not(:last-child):before {
 }
 .btn-gradient-sqr {
   display: inline-block;
-  padding: 16px 34px;
+  padding: 14px 34px;
   border-radius: 6px;
-  background: linear-gradient(255.07deg, #f97956 -2.38%, #ff4579 102.02%);
+  background: linear-gradient(255.07deg, #ca373c -2.38%, #ca373c 102.02%);
   color: #fff;
   text-decoration: none;
   font-weight: 600;

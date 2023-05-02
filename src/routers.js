@@ -27,6 +27,9 @@ import SalesSupport from './components/support/SalesSupport'
 import TechnicalSupport from './components/support/TechnicalSupport'
 import CaseStudyDetail from './components/case_study/CaseStudyDetail'
 import CoeSetup from './components/services/CoeSetup'
+import VideosAnimations from './components/services/VideosAnimations'
+import UseCases from './components/usecase/UseCases'
+import UseCaseDetail from './components/usecase/UseCaseDetail'
 
 
 function Routers() {
@@ -74,6 +77,11 @@ function Routers() {
 
             {/* Services */}
             <Route path="/coe-setup" element={<CoeSetup/>}/>
+            <Route path="/videos-and-animations" element={<VideosAnimations/>}/>
+
+            {/* Use Cases */}
+            <Route path="/use-cases" element={<UseCases/>}/>
+            <Route path="/use-case-detail" element={<UseCaseDetail/>}/>
 
         </Routes>
     </>

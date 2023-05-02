@@ -923,7 +923,15 @@ img.fawfrt.img-fluid.feet {
     object-fit: cover;
 }
 
+.rasonvidoesde{
+    background: url('../img/payment-step.jpg')no-repeat center center / cover
+}
 
+.usebgcasef{
+    background:
+      url('../img/app-two-mockup-bg.png')no-repeat
+      center center / cover
+}
 
 .moviebox {
   display: flex;
@@ -1084,13 +1092,69 @@ img.fawfrt.img-fluid.feet {
 }
 
 
+.team-img img {
+    transition: all 0.3s ease;
+    height: 245px;
+    width: 100%;
+}
+
+.pt-40{
+    padding-top: 40px;
+}
+.pt-20{
+    padding-top: 20px;
+}
 
 
+.usecaselsit .uslistimg .team-img{
+    flex: .30;
+}
+.usecaselsit .uslistimg .team-info{
+    flex: .65;
+}
+.usecaselsit .uslistimg {
+    padding: 0px;
+    height: 200px;
+}
+.text-muted1{
+    color: #a7a7a7 !important;
+    font-weight: 500;
+    font-size: 12px !important;
+}
+.industryrtg{
+    display: flex;
+    align-items: center;
+}
+.industryrtg svg{
+    width: 16px;
+}
+.usecaselsit .searchfilter .form-control{
+    border-color: #727272;
+}
 
+.usecasesdetailde .integration-logo{
+    margin-bottom: 10px;
+}
 
+.usecasesdetailde .connected-app-content p{
+    font-size: 15px;
+}
 
+.fivemmodal img {
+    height: 55px;
+    margin-bottom: 5px;
+    object-fit: contain;
+}
 
-
+.fivemmodal h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin: 5px 0px;
+}
+.fivemmodal p{
+    font-size: 14px;
+}
 
 @media (max-width:767px){
     .journeypagec {
