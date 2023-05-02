@@ -1156,6 +1156,11 @@ img.fawfrt.img-fluid.feet {
     font-size: 14px;
 }
 
+.ctaq2r{
+    background-image: url('../../../public/assets/img/services/customsolutions/ctasd.png');
+    background-position: center;
+}
+
 @media (max-width:767px){
     .journeypagec {
         padding: 10px 5px;

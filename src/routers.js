@@ -30,6 +30,7 @@ import CoeSetup from './components/services/CoeSetup'
 import VideosAnimations from './components/services/VideosAnimations'
 import UseCases from './components/usecase/UseCases'
 import UseCaseDetail from './components/usecase/UseCaseDetail'
+import CustomSolutions from './components/services/customsolutions/CustomSolutions'
 
 
 function Routers() {
@@ -68,16 +69,17 @@ function Routers() {
             <Route path="/applynow" element={<ApplyNow/>}/>
 
             {/* Case Study */}
-            <Route path="case-study" element={<CaseStudy/>} />
-            <Route path="case-study-detail" element={<CaseStudyDetail/>} />
+            <Route path="/case-study" element={<CaseStudy/>} />
+            <Route path="/case-study-detail" element={<CaseStudyDetail/>} />
             
             {/* Support */}
-            <Route path="sales-support" element={<SalesSupport/>}/>
-            <Route path="technical-support" element={<TechnicalSupport/>}/>
+            <Route path="/sales-support" element={<SalesSupport/>}/>
+            <Route path="/technical-support" element={<TechnicalSupport/>}/>
 
             {/* Services */}
             <Route path="/coe-setup" element={<CoeSetup/>}/>
             <Route path="/videos-and-animations" element={<VideosAnimations/>}/>
+            <Route path="/custom-solutions" element={<CustomSolutions/>}/>
 
             {/* Use Cases */}
             <Route path="/use-cases" element={<UseCases/>}/>

@@ -66,7 +66,7 @@ function PremoteHeader() {
                                             <a href="/coe-setup" className="dropdown-link">
                                                 <div className="drop-title">COE Set Up</div>
                                             </a>
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/custom-solutions" className="dropdown-link">
                                                 <div className="drop-title">Custom Solutions</div>
                                             </a>
                                             <a href="/videos-and-animations" className="dropdown-link">

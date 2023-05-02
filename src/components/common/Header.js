@@ -65,7 +65,7 @@ function Header() {
                                             <a href="/coe-setup" className="dropdown-link">
                                                 <div className="drop-title">COE set up</div>
                                             </a>
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/custom-solutions" className="dropdown-link">
                                                 <div className="drop-title">Custom solutions</div>
                                             </a>
                                             <a href="/videos-and-animations" className="dropdown-link">
@@ -212,7 +212,7 @@ function Header() {
                                         <a href="/coe-setup" className="dropdown-link">
                                             <div className="drop-title">COE set up</div>
                                         </a>
-                                        <a href="#" className="dropdown-link">
+                                        <a href="/custom-solutions" className="dropdown-link">
                                             <div className="drop-title">Custom solutions</div>
                                         </a>
                                         <a href="/videos-and-animations" className="dropdown-link">

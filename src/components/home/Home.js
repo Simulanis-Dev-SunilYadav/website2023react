@@ -810,7 +810,7 @@ function Home() {
                             <img class="thumb" src="assets/img/blogimg/plant.jpg" alt="" />
                             <img class="hero" src="assets/img/blogimg/plant.jpg" alt="" />
                             <div class="movietext"> 
-                            <a href="#">
+                            <a href="/case-study-detail">
                                 <p><i class="fa fa-plus"></i></p>
                                 Compression Machine</a>
                             </div>
@@ -820,7 +820,7 @@ function Home() {
                             <img class="hero" src="assets/img/blogimg/r_ban2.png" alt="" />
                             <div class="movietext">
                             
-                            <a href="#">
+                            <a href="case-study-detail">
                             <p><i class="fa fa-plus"></i></p>
                             API Dispensing</a>
                             </div>
@@ -829,7 +829,7 @@ function Home() {
                             <img class="thumb" src="assets/img/blogimg/training.jpg" alt="" />
                             <img class="hero" src="assets/img/blogimg/training.jpg" alt="" />
                             <div class="movietext">
-                            <a href="#">
+                            <a href="/case-study-detail">
                             <p><i class="fa fa-plus"></i></p>
                             Industrial Training</a>
                             </div>
@@ -838,7 +838,7 @@ function Home() {
                             <img class="thumb" src="assets/img/blogimg/plantd.jpg" alt="" />
                             <img class="hero" src="assets/img/blogimg/plantd.jpg" alt="" />
                             <div class="movietext">
-                            <a target="_blank" href="#">
+                            <a href="/case-study-detail">
                             <p><i class="fa fa-plus"></i></p>Injection Moulding</a>
                             </div>
                         </div>
