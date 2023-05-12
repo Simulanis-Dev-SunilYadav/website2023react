@@ -123,7 +123,7 @@ function Header() {
                                             <a href="/about" className="dropdown-link px-0">
                                                 <div className="drop-title">Our journey so far</div>
                                             </a>
-                                            <a href="#" className="dropdown-link px-0">
+                                            <a href="/our-values" className="dropdown-link px-0">
                                                 <div className="drop-title">Our values</div>
                                             </a>
                                             <a href="/awards" className="dropdown-link">
@@ -137,6 +137,9 @@ function Header() {
                                             </a>                                        
                                             <a href="/become-partner" className="dropdown-link">
                                                 <div className="drop-title">Become a partner</div>
+                                            </a>                                                                                                                                      
+                                            <a href="/news" className="dropdown-link">
+                                                <div className="drop-title">News</div>
                                             </a>                                                                                                                                      
                                         </div>
                                     </div>
@@ -269,7 +272,7 @@ function Header() {
                                         <a href="/about" className="dropdown-link px-0">
                                             <div className="drop-title">Our journey so far</div>
                                         </a>
-                                        <a href="#" className="dropdown-link px-0">
+                                        <a href="/our-values" className="dropdown-link px-0">
                                             <div className="drop-title">Our values</div>
                                         </a>
                                         <a href="/awards" className="dropdown-link">

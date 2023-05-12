@@ -1156,10 +1156,121 @@ img.fawfrt.img-fluid.feet {
     font-size: 14px;
 }
 
+.section.products {
+    padding: 45px 0px 45px 0px;
+}
+
+
 .ctaq2r{
     background-image: url('../../../public/assets/img/services/customsolutions/ctasd.png');
     background-position: center;
 }
+
+
+
+/* servics provess box */
+.powersimg {
+    display: flex;
+}
+.powersimg .box1 {
+    flex: 0.4;
+    padding: 15px;
+}
+.powersimg .box {
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.powersimg .box:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    transform: rotate(0) scale(2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+}
+.powersimg .box img {
+    width: 100%;
+    transition: all 0.5s ease 0s;
+    height: 92.5vh;
+    object-fit: contain;
+}
+.powersimg .box .box-content {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    z-index: 2;
+    transition: all 0.5s ease-out 0s;
+    padding: 0px 15px;
+}
+.powersimg .box:hover .box-content {
+    opacity: 1;
+}
+.powersimg .box:hover:before {
+    transform: rotate(360deg) scale(2);
+    background: #ca373c;
+}
+.box-content h4 {
+    color: #fff;
+    font-size: 18px;
+}
+.box-content p{
+    font-size: 14px;
+    color: #ffffffd8;
+}
+
+.powersimg .box2 {
+    flex: 0.6;
+}
+.powersimg .box221 {
+    display: flex;
+}
+
+.powersimg .box221 .box21 {
+    flex: 0.6;
+    padding: 15px 0px;
+}
+.powersimg .box221 .box22 {
+    flex: 0.4;
+    padding: 15px;
+}
+.powersimg .box221 .box21 img {
+    height: 45vh;
+    object-fit: cover;
+}
+.powersimg .box221 .box22 img {
+    height: 45vh;
+    object-fit: cover;
+}
+
+.box222 .box21 {
+    padding: 0px 15px 15px 15px !important;
+}
+.box222 .box22 {
+    padding: 0px !important;
+}
+
+
+.keybenefits .service-info-wrap .h6, .keybenefits .feature-info-wrap .h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: #404040;
+    line-height: 1.3;
+}
+
+.datedf{
+    font-size: 10px;
+}
+
 
 @media (max-width:767px){
     .journeypagec {

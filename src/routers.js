@@ -31,6 +31,11 @@ import VideosAnimations from './components/services/VideosAnimations'
 import UseCases from './components/usecase/UseCases'
 import UseCaseDetail from './components/usecase/UseCaseDetail'
 import CustomSolutions from './components/services/customsolutions/CustomSolutions'
+import AR from './components/services/customsolutions/AR'
+import VR from './components/services/customsolutions/VR'
+import MR from './components/services/customsolutions/MR'
+import OurValues from './components/aboutus/OurValues'
+import News from './components/aboutus/News'
 
 
 function Routers() {
@@ -54,6 +59,8 @@ function Routers() {
             {/* About */}
             <Route path="/about" element={<About/>}/>
             <Route path="/awards" element={<Awards/>}/>
+            <Route path="/our-values" element={<OurValues/>}/>
+            <Route path="/news" element={<News/>}/>
 
             {/* Authentication */}
             <Route path="/login" element={<Login/>}/>
@@ -80,10 +87,16 @@ function Routers() {
             <Route path="/coe-setup" element={<CoeSetup/>}/>
             <Route path="/videos-and-animations" element={<VideosAnimations/>}/>
             <Route path="/custom-solutions" element={<CustomSolutions/>}/>
+            <Route path="/augmented-reality" element={<AR/>}/>
+            <Route path="/virtual-reality" element={<VR/>}/>
+            <Route path="/mixed-reality" element={<MR/>}/>
 
             {/* Use Cases */}
             <Route path="/use-cases" element={<UseCases/>}/>
             <Route path="/use-case-detail" element={<UseCaseDetail/>}/>
+
+            {/* News & Upcoming Events */}
+            {/* <Route path="/" */}
 
         </Routes>
     </>

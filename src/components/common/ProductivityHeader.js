@@ -120,7 +120,7 @@ function ProductivityHeader() {
                                             <a href="/about" className="dropdown-link px-0">
                                                 <div className="drop-title">Our journey so far</div>
                                             </a>
-                                            <a href="#" className="dropdown-link px-0">
+                                            <a href="/our-values" className="dropdown-link px-0">
                                                 <div className="drop-title">Our values</div>
                                             </a>
                                             <a href="/awards" className="dropdown-link">
@@ -134,7 +134,10 @@ function ProductivityHeader() {
                                             </a>                                        
                                             <a href="/become-partner" className="dropdown-link">
                                                 <div className="drop-title">Become a partner</div>
-                                            </a>                                                                            
+                                            </a>  
+                                            <a href="/news" className="dropdown-link">
+                                                <div className="drop-title">News</div>
+                                            </a>                                                                              
                                                                                                           
                                         </div>
                                     </div>
@@ -233,28 +236,28 @@ function ProductivityHeader() {
                                     <div className="dropdown-grid-item bg-white radius-left-side">
                                         <h6 className="drop-heading">Overview</h6>
                                         <a href="#" className="dropdown-link px-0">
-                                            <div className="drop-title">Our Story</div>
+                                            <div className="drop-title">Our story</div>
                                         </a>
-                                        <a href="#" className="dropdown-link px-0">
-                                            <div className="drop-title">Our Values</div>
+                                        <a href="/our-values" className="dropdown-link px-0">
+                                            <div className="drop-title">Our values</div>
                                         </a>
                                         <a href="#" className="dropdown-link">
-                                            <div className="drop-title">Why Us ?</div>
+                                            <div className="drop-title">Why us ?</div>
                                         </a>
                                     </div>
                                     <div className="dropdown-grid-item radius-right-side">
-                                        <h6 className="drop-heading">Awards & Achievements</h6>
+                                        <h6 className="drop-heading">Awards & achievements</h6>
                                         <a href="#" className="dropdown-link">
-                                            <div className="drop-title">Our Wall</div>
+                                            <div className="drop-title">Our wall</div>
                                         </a>
                                         <a href="#" className="dropdown-link">
                                             <div className="drop-title">Career</div>
                                         </a>
                                     </div>
                                     <div className="dropdown-grid-item radius-right-side">
-                                        <h6 className="drop-heading">What's New</h6>
+                                        <h6 className="drop-heading">What's new</h6>
                                         <a href="#" className="dropdown-link">
-                                            <div className="drop-title">News Room</div>
+                                            <div className="drop-title">News room</div>
                                         </a>
                                         <a href="#" className="dropdown-link">
                                             <div className="drop-title">Blogs</div>

@@ -42,7 +42,7 @@ function CustomSolutions() {
                             <div className="why-choose-content">
                                 <h2>AR  solutions</h2>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                                <a href="#" className="read-more-link text-decoration-none">Know More <i className="fas fa-arrow-right ms-2"></i></a>
+                                <a href="/augmented-reality" className="read-more-link text-decoration-none">Know More <i className="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
                         <div className="col-lg-5 col-12">
@@ -56,7 +56,7 @@ function CustomSolutions() {
                             <div className="why-choose-content">
                                 <h2>VR  solutions</h2>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                                <a href="#" className="read-more-link text-decoration-none">Know More <i className="fas fa-arrow-right ms-2"></i></a>
+                                <a href="/virtual-reality" className="read-more-link text-decoration-none">Know More <i className="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
                         <div className="col-lg-5 order-lg-1 col-12">
@@ -70,7 +70,7 @@ function CustomSolutions() {
                             <div className="why-choose-content">
                                 <h2>MR  solutions</h2>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                                <a href="#" className="read-more-link text-decoration-none">Know More <i className="fas fa-arrow-right ms-2"></i></a>
+                                <a href="/mixed-reality" className="read-more-link text-decoration-none">Know More <i className="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
                         <div className="col-lg-5 order-lg-2 col-12">

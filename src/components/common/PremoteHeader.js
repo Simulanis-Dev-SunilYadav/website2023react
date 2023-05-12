@@ -64,10 +64,10 @@ function PremoteHeader() {
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
                                             <a href="/coe-setup" className="dropdown-link">
-                                                <div className="drop-title">COE Set Up</div>
+                                                <div className="drop-title">COE set up</div>
                                             </a>
                                             <a href="/custom-solutions" className="dropdown-link">
-                                                <div className="drop-title">Custom Solutions</div>
+                                                <div className="drop-title">Custom solutions</div>
                                             </a>
                                             <a href="/videos-and-animations" className="dropdown-link">
                                                 <div className="drop-title">Videos & animations</div>
@@ -122,10 +122,10 @@ function PremoteHeader() {
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
                                             <a href="/about" className="dropdown-link px-0">
-                                                <div className="drop-title">Our Journey So Far</div>
+                                                <div className="drop-title">Our journey so far</div>
                                             </a>
-                                            <a href="#" className="dropdown-link px-0">
-                                                <div className="drop-title">Our Values</div>
+                                            <a href="/our-values" className="dropdown-link px-0">
+                                                <div className="drop-title">Our values</div>
                                             </a>
                                             <a href="awards.html" className="dropdown-link">
                                                 <div className="drop-title">Credibility</div>
@@ -227,19 +227,19 @@ function PremoteHeader() {
                                     <div className="dropdown-grid-item bg-white radius-left-side">
                                         <h6 className="drop-heading">Overview</h6>
                                         <a href="#" className="dropdown-link px-0">
-                                            <div className="drop-title">Our Story</div>
+                                            <div className="drop-title">Our story</div>
                                         </a>
-                                        <a href="#" className="dropdown-link px-0">
-                                            <div className="drop-title">Our Values</div>
+                                        <a href="/our-values" className="dropdown-link px-0">
+                                            <div className="drop-title">values</div>
                                         </a>
                                         <a href="#" className="dropdown-link">
-                                            <div className="drop-title">Why Us ?</div>
+                                            <div className="drop-title">Why us ?</div>
                                         </a>
                                     </div>
                                     <div className="dropdown-grid-item radius-right-side">
-                                        <h6 className="drop-heading">Awards & Achievements</h6>
+                                        <h6 className="drop-heading">Awards & achievements</h6>
                                         <a href="#" className="dropdown-link">
-                                            <div className="drop-title">Our Wall</div>
+                                            <div className="drop-title">Our wall</div>
                                         </a>
                                         <a href="#" className="dropdown-link">
                                             <div className="drop-title">Career</div>
