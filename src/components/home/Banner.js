@@ -13,7 +13,7 @@ function Banner() {
                                Pioneering a revolution in immersive learning and redefining the future of work across industries
                             </p>
                             <div className="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
-                                <a href="#" className="btn btn-primary me-3">Get in touch</a>
+                                <a href="/get-in-touch" className="btn btn-primary me-3">Get in touch</a>
                                 <a href="https://www.youtube.com/watch?v=2vdfZgHayyw" className="text-decoration-none popup-youtube d-inline-flex align-items-center watch-now-btn mt-3 mt-lg-0 mt-md-0 text-primary">
                                     <i className="fas fa-play text-primary border-2 border-primary"></i>
                                     Watch us in action

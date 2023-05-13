@@ -83,7 +83,7 @@ function Header() {
                                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white ">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/clients" className="dropdown-link">
                                                 <div className="drop-title">Clients</div>
                                             </a>
                                             <a href="#" className="dropdown-link">

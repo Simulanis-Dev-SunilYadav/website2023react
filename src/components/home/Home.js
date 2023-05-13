@@ -10,7 +10,7 @@ function Home() {
     <>
         <Header/>
         <Banner/>
-          <section className="why-us ptb-40 bg-light-subtle productfgt">
+        <section className="why-us ptb-40 bg-light-subtle productfgt">
             <div className="container">
                 <div className="row justify-content-center align-content-center">
                     <div className="col-md-10 col-lg-8">
@@ -356,7 +356,7 @@ function Home() {
                     <div className="col-lg-7 col-md-12">
                         <div className="section-heading">
                             <h2>Trusted Clients</h2>
-                            <p>We have served more than 120+ enterprises across the globe using our solutions</p>
+                            <p>We have served more than 150+ enterprises across the globe using our solutions</p>
                         </div>
                     </div>
                 </div>
@@ -928,7 +928,7 @@ function Home() {
             </div>
         </section>
 
-          <Footer/>
+        <Footer/>
 
     </>
   )

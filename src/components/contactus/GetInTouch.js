@@ -1,20 +1,29 @@
 import React from 'react'
 import Footer from '../common/Footer'
 import Headerbd from '../common/Headerbd'
-import Header from '../common/Header'
 
 function GetInTouch() {
   return (
     <>
-        <Header/>
+        <Headerbd/>
 
-            <section className="contact-us-form ptb-120 pb-60">
+            <section className="page-header position-relative overflow-hidden ptb-120 pb-60 bg-dark">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6 col-md-12">
+                            <h1 className="display-5 fw-bold">Get in touch with us</h1>
+                            <p className="lead">Seamlessly actualize client-based users after out-of-the-box value data through
+                                frictionless expertise.</p>
+                        </div>
+                    </div>
+                    <div className="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light right-5"></div>
+                </div>
+            </section>
+
+            <section className="contact-us-form ptb-60">
                 <div className="container">
                     <div className="row justify-content-lg-between align-items-center">
                         <div className="col-lg-6 col-md-8">
-                            <div className="section-heading">
-                                <h2>Get in touch with us </h2>
-                            </div>
                             <form action="#" className="register-form">
                                 <div className="row">
                                     <div className="col-sm-6">
