@@ -1,7 +1,5 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Header from './components/common/Header'
-import Footer from './components/common/Footer'
 import Home from './components/home/Home'
 import Productivity from './components/home/products/assist/Productivity'
 import Creator from './components/home/products/creator/Creator'
@@ -35,7 +33,12 @@ import AR from './components/services/customsolutions/AR'
 import VR from './components/services/customsolutions/VR'
 import MR from './components/services/customsolutions/MR'
 import OurValues from './components/aboutus/OurValues'
-import News from './components/aboutus/News'
+import News from './components/aboutus/news/News'
+import NewsAll from './components/aboutus/news/NewsAll'
+import EventsAll from './components/aboutus/news/EventsAll'
+import Faq from './components/faq/Faq'
+import Clients from './components/clients/Clients'
+import GetInTouch from './components/contactus/GetInTouch'
 
 
 function Routers() {
@@ -61,6 +64,8 @@ function Routers() {
             <Route path="/awards" element={<Awards/>}/>
             <Route path="/our-values" element={<OurValues/>}/>
             <Route path="/news" element={<News/>}/>
+            <Route path="/news-list" element={<NewsAll/>}/>
+            <Route path="/events-list" element={<EventsAll/>}/>
 
             {/* Authentication */}
             <Route path="/login" element={<Login/>}/>
@@ -83,6 +88,9 @@ function Routers() {
             <Route path="/sales-support" element={<SalesSupport/>}/>
             <Route path="/technical-support" element={<TechnicalSupport/>}/>
 
+            {/* Get in touch */}
+            <Route path="/get-in-touch" element={<GetInTouch/>} />
+
             {/* Services */}
             <Route path="/coe-setup" element={<CoeSetup/>}/>
             <Route path="/videos-and-animations" element={<VideosAnimations/>}/>
@@ -95,8 +103,12 @@ function Routers() {
             <Route path="/use-cases" element={<UseCases/>}/>
             <Route path="/use-case-detail" element={<UseCaseDetail/>}/>
 
-            {/* News & Upcoming Events */}
-            {/* <Route path="/" */}
+            {/* Faq */}
+            <Route path="/faq" element={<Faq/>}/>
+            
+            {/* ClientsList */}
+            <Route path="/clients" element={<Clients/>}/>
+            
 
         </Routes>
     </>

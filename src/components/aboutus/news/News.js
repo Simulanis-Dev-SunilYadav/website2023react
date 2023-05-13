@@ -1,6 +1,7 @@
 import React from 'react'
-import Footer from '../common/Footer'
-import Headerbd from '../common/Headerbd'
+import Footer from '../../common/Footer'
+import Headerbd from '../../common/Headerbd'
+import { Link } from 'react-router-dom'
 
 function News() {
   return (
@@ -20,83 +21,83 @@ function News() {
             </div>
         </section>
         <section className="home-blog-section ptb-40 bg-light-subtle">
-              <div className="container">
-                  <div className="row align-items-center justify-content-between">
-                      <div className="col-lg-6 col-md-10">
-                          <div className="section-heading">
-                              <h4 className="h5 text-primary">In the news</h4>
-                              <h2>Lorem Ipsum is simply</h2>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-                          </div>
-                      </div>
-                      <div className="col-lg-6 text-end">
-                          <a href="#" className='btn btn-danger'>View All News</a>
-                      </div>
-                  </div>
-                  <div className="row">
-                      <div className="blog-grid">
-                          <div className="featured-post-wrapper">
-                              <div className="blog-item">
-                                  <div className="blog-content bg-white">
-                                      <div className="blog-media">
-                                          <img src="assets/img/about/news/armoving.jpg" alt="article" className="img-fluid" />
-                                      </div>
-                                      <div className="blog-text p-lg-4">
-                                          <span className='datedf'><i className='fa fa-calendar'></i> 23-SEP-2019 </span>
-                                          <a href="https://www.businesstoday.in/magazine/technology/story/ar-moving-the-real-world-249378-2020-02-04" target='_blank'>
-                                              <h3 className="h5">AR: Moving the real world</h3>
-                                          </a>
-                                          <p>MG Motor India's studio in Bengaluru's Residency Road is unique. It is small, just 500 sq. ft., and possibly one of the very few car showrooms in India without a car.</p>
-                                          <div className="read-more-link">
-                                              <a href="https://www.businesstoday.in/magazine/technology/story/ar-moving-the-real-world-249378-2020-02-04" target='_blank' className="mt-2 d-inline-flex align-items-center btn btn-sm btn-pill font-weight-bold"><span>Read More</span>
-                                                  <i className="fas fa-arrow-right ms-2"></i></a>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <div className="posts-wrapper">
-                              <div className="blog-item">
-                                  <div className="blog-content bg-white">
-                                      <div className="blog-media">
-                                          <img src="assets/img/blog/blog-4.jpg" alt="article" className="img-fluid" />
-                                      </div>
-                                      <div className="blog-text p-4 p-lg-4">
-                                          <span className='datedf'><i className='fa fa-calendar'></i> 23-SEP-2019 </span>
-                                          <a href="#">
-                                              <h3 className="h5">AR: Moving the real world</h3>
-                                          </a>
-                                          <p>MG Motor India's studio in Bengaluru's Residency Road is unique. It is small, just 500 sq. ft., and possibly one of the very few car showrooms in India without a car.</p>
-                                          <div className="read-more-link">
-                                              <a href="#" className="mt-2 d-inline-flex align-items-center btn btn-sm btn-pill font-weight-bold"><span>Read More</span>
-                                                  <i className="fas fa-arrow-right ms-2"></i></a>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div className="blog-item">
-                                  <div className="blog-content bg-white">
-                                      <div className="blog-media">
-                                          <img src="assets/img/blog/blog-2.jpg" alt="article" className="img-fluid" />
-                                      </div>
-                                      <div className="blog-text p-4 p-lg-4">
-                                          <span className='datedf'><i className='fa fa-calendar'></i> 23-SEP-2019 </span>
-                                          <a href="#" target="_blank">
-                                              <h3 className="h5">AR: Moving the real world</h3>
-                                          </a>
-                                          <p>MG Motor India's studio in Bengaluru's Residency Road is unique. It is small, just 500 sq. ft., and possibly one of the very few car showrooms in India without a car.</p>
-                                          <div className="read-more-link">
-                                              <a href="#" target="_blank" className="mt-2 d-inline-flex align-items-center btn btn-sm btn-pill font-weight-bold"><span>Read More</span>
-                                                  <i className="fas fa-arrow-right ms-2"></i></a>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </section>
+            <div className="container">
+                <div className="row align-items-center justify-content-between">
+                    <div className="col-lg-6 col-md-10">
+                        <div className="section-heading">
+                            <h4 className="h5 text-primary">In the news</h4>
+                            <h2>Lorem Ipsum is simply</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 text-end">
+                        <a href="/news-list" className='btn btn-danger'>View All News</a>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="blog-grid">
+                        <div className="featured-post-wrapper">
+                            <div className="blog-item">
+                                <div className="blog-content bg-white">
+                                    <div className="blog-media">
+                                        <img src="assets/img/about/news/armoving.jpg" alt="article" className="img-fluid" />
+                                    </div>
+                                    <div className="blog-text p-lg-4">
+                                        <span className='datedf'><i className='fa fa-calendar'></i> 23-SEP-2019 </span>
+                                        <a href="https://www.businesstoday.in/magazine/technology/story/ar-moving-the-real-world-249378-2020-02-04" target='_blank'>
+                                            <h3 className="h5">AR: Moving the real world</h3>
+                                        </a>
+                                        <p>MG Motor India's studio in Bengaluru's Residency Road is unique. It is small, just 500 sq. ft., and possibly one of the very few car showrooms in India without a car.</p>
+                                        <div className="read-more-link">
+                                            <a href="https://www.businesstoday.in/magazine/technology/story/ar-moving-the-real-world-249378-2020-02-04" target='_blank' className="mt-2 d-inline-flex align-items-center btn btn-sm btn-pill font-weight-bold"><span>Read More</span>
+                                                <i className="fas fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="posts-wrapper">
+                            <div className="blog-item">
+                                <div className="blog-content bg-white">
+                                    <div className="blog-media">
+                                        <img src="assets/img/blog/blog-4.jpg" alt="article" className="img-fluid" />
+                                    </div>
+                                    <div className="blog-text p-4 p-lg-4">
+                                        <span className='datedf'><i className='fa fa-calendar'></i> 23-SEP-2019 </span>
+                                        <a href="#">
+                                            <h3 className="h5">AR: Moving the real world</h3>
+                                        </a>
+                                        <p>MG Motor India's studio in Bengaluru's Residency Road is unique. It is small, just 500 sq. ft., and possibly one of the very few car showrooms in India without a car.</p>
+                                        <div className="read-more-link">
+                                            <a href="#" className="mt-2 d-inline-flex align-items-center btn btn-sm btn-pill font-weight-bold"><span>Read More</span>
+                                                <i className="fas fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="blog-item">
+                                <div className="blog-content bg-white">
+                                    <div className="blog-media">
+                                        <img src="assets/img/blog/blog-2.jpg" alt="article" className="img-fluid" />
+                                    </div>
+                                    <div className="blog-text p-4 p-lg-4">
+                                        <span className='datedf'><i className='fa fa-calendar'></i> 23-SEP-2019 </span>
+                                        <a href="#" target="_blank">
+                                            <h3 className="h5">AR: Moving the real world</h3>
+                                        </a>
+                                        <p>MG Motor India's studio in Bengaluru's Residency Road is unique. It is small, just 500 sq. ft., and possibly one of the very few car showrooms in India without a car.</p>
+                                        <div className="read-more-link">
+                                            <a href="#" target="_blank" className="mt-2 d-inline-flex align-items-center btn btn-sm btn-pill font-weight-bold"><span>Read More</span>
+                                                <i className="fas fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section className="masonary-blog-section ptb-40">
             <div className="container">
@@ -294,7 +295,7 @@ function News() {
                     </div>
                 </div>
                 <div className="text-center mt-5">
-                    <a href="#" className="btn btn-primary bg-dark-blue">View More Events</a>
+                    <a href="/events-list" className="btn btn-primary bg-dark-blue">View More Events</a>
                 </div>
             </div>
         </section>

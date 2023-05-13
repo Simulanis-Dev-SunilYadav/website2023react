@@ -51,10 +51,11 @@ function Footer() {
                                     <div className="footer-single-col">
                                         <h3>Resources</h3>
                                         <ul className="list-unstyled footer-nav-list mb-lg-0">
-                                            <li><a href="/case-study" className="text-decoration-none">Case studies</a></li>
+                                            {/* <li><a href="/case-study" className="text-decoration-none">Case studies</a></li> */}
                                             <li><a href="/use-cases" className="text-decoration-none">Use cases</a></li>
                                             <li><a href="https://www.youtube.com/c/SimulanisSolutions/videos" target='_blank' className="text-decoration-none">Videos</a></li>
                                             <li><a href="/blogs" className="text-decoration-none">Blogs</a></li>
+                                            <li><a href="/faq" className="text-decoration-none">FAQ</a></li>
                                         </ul>
                                     </div>
                                 </div>

@@ -105,6 +105,11 @@
 [data-bs-theme="dark"] .read-more-link {
     color: #fff;
 }
+
+[data-bs-theme="dark"] .contact-promo-info a{
+    color: #b6b6b6;
+}
+
 [data-bs-theme="dark"] .feature-tab-list-2 li a.active {
     background: #c2282d;
     border-color: #c2282d;
