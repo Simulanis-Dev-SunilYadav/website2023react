@@ -7,15 +7,15 @@ function Metaverse() {
   return (
     <>
         <EngageHeader/>
-         <section className="hero-section ptb-40 text-white bg-gradient metaversebg">
+         <section className="hero-section ptb-40 ptm-70 text-white bg-gradient metaversebg">
             <div className="container">
                 <div className="row align-items-center pt-5">
                     <div className="col-lg-6 col-md-10">
                         <div className="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
-                            <h1 className="fw-bold display-5">What Is The Simulanis Metaverse </h1>
+                            <h1 className="fw-bold display-5">What is the Simulanis Metaverse </h1>
                             <p className="lead">Simulanis metaverse is developed for businesses. Our Metaverse let businesses to have their own personalized metaverse.</p>
                             <div className="action-btn mt-4 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
-                                <a href="#" className="btn btn-danger me-3">Request For Demo</a>
+                                <a href="#" className="btn btn-danger me-3">Request for demo</a>
                                 <a href="#" className="text-decoration-none d-inline-flex align-items-center watch-now-btn mt-3 mt-lg-0 mt-md-0"> <i className="fas fa-play"></i> Free Demo </a>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ function Metaverse() {
                     <div className="col-lg-6 col-md-12">
                         <div className="digi-why-right why-choose-content">
                             <div>
-                                <h2>Pain Points</h2>
+                                <h2>Pain points</h2>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum has been the industry's standard dummy text ever since the 1500s  </p>
                             </div>
                             <ul className="list-unstyled painpt mb-0 mt-3">
@@ -52,7 +52,7 @@ function Metaverse() {
                                         <img src="assets/img/icons/dw-i-2.svg" className="img-fluid" alt="icon" />
                                     </div>
                                     <div>
-                                        <span>Site Visits</span>
+                                        <span>Site visits</span>
                                     </div>
                                 </li>
                                 <li className="pe-4 d-flex p-3 align-items-center bg-white">
@@ -60,7 +60,7 @@ function Metaverse() {
                                         <img src="assets/img/icons/dw-i-3.svg" className="img-fluid" alt="icon" />
                                     </div>
                                     <div>
-                                        <span>Employee Training</span>
+                                        <span>Employee training</span>
                                     </div>
                                 </li>
                                 <li className="pe-4 d-flex p-3 align-items-center bg-white">
@@ -68,7 +68,7 @@ function Metaverse() {
                                         <img src="assets/img/icons/dw-i-4.svg" className="img-fluid" alt="icon" />
                                     </div>
                                     <div>
-                                        <span>Employee Induction</span>
+                                        <span>Employee induction</span>
                                     </div>
                                 </li>
                             </ul>
@@ -105,11 +105,11 @@ function Metaverse() {
                             </div>
                             <ul className="list-unstyled d-flex flex-wrap list-two-col mb-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">
                                 <li>
-                                    <h3 className="h5">Customer Analysis</h3>
+                                    <h3 className="h5">Customer analysis</h3>
                                     <p>Lorem Ipsum is simply dummy text of the printing.</p>
                                 </li>
                                 <li>
-                                    <h3 className="h5">Real Time Metrics</h3>
+                                    <h3 className="h5">Real time metrics</h3>
                                     <p>
                                         Lorem Ipsum is simply dummy text of the printing.
                                     </p>
@@ -122,18 +122,18 @@ function Metaverse() {
                     <div className="col-lg-6 col-12">
                         <div className="feature-img-content">
                             <div className="section-heading aos-init aos-animate" data-aos="fade-up">
-                                <h2>Virtual Meetings and Meet-ups</h2>
+                                <h2>Virtual meetings and meet-ups</h2>
                                 <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                                 </p>
                             </div>
                             <ul className="list-unstyled d-flex flex-wrap list-two-col mb-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">
                                 <li>
-                                    <h3 className="h5">Customer Analysis</h3>
+                                    <h3 className="h5">Customer analysis</h3>
                                     <p>Lorem Ipsum is simply dummy text of the printing.</p>
                                 </li>
                                 <li>
-                                    <h3 className="h5">Real Time Metrics</h3>
+                                    <h3 className="h5">Real time metrics</h3>
                                     <p>
                                         Lorem Ipsum is simply dummy text of the printing.
                                     </p>
@@ -171,11 +171,11 @@ function Metaverse() {
                             </div>
                             <ul className="list-unstyled d-flex flex-wrap list-two-col mb-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">
                                 <li>
-                                    <h3 className="h5">Customer Analysis</h3>
+                                    <h3 className="h5">Customer analysis</h3>
                                     <p>Lorem Ipsum is simply dummy text of the printing.</p>
                                 </li>
                                 <li>
-                                    <h3 className="h5">Real Time Metrics</h3>
+                                    <h3 className="h5">Real time metrics</h3>
                                     <p>
                                         Lorem Ipsum is simply dummy text of the printing.
                                     </p>
@@ -231,7 +231,7 @@ function Metaverse() {
                 <div className="row align-items-center justify-content-center text-center">
                     <div className="col-lg-8 col-md-12">
                         <div className="section-heading">
-                            <h2>We Collaborate with Top Companies</h2>
+                            <h2>We collaborate with top companies</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
                         </div>
                     </div>
@@ -318,7 +318,7 @@ function Metaverse() {
                 <div className="row justify-content-center align-content-center">
                     <div className="col-md-10 col-lg-8">
                         <div className="section-heading text-center" data-aos="fade-up">
-                            <h2>What They Say About Us</h2>
+                            <h2>What they say about us</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                         </div>
                     </div>

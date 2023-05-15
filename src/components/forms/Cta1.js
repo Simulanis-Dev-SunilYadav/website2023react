@@ -14,7 +14,7 @@ function Cta1() {
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                             </div>
                             <div className="form-block-banner mw-60 m-auto mt-5" data-aos="fade-up" data-aos-delay="50">
-                                <a href="#" className="btn btn-primary">Contact with Us</a>
+                                <a href="/get-in-touch" className="btn btn-primary">Contact with Us</a>
                                 <a href="https://www.youtube.com/watch?v=wA8G1K9mRdk" className="text-decoration-none popup-youtube d-inline-flex align-items-center watch-now-btn ms-lg-3 ms-md-3 mt-3 mt-lg-0"> <i
                                         className="fas fa-play"></i> Watch demo </a>
                             </div>

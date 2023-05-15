@@ -6,7 +6,7 @@ function Clients() {
   return (
     <>
         <Headerbd/>
-          <section className="hero-payment-gateway ptb-120 pb-60">
+          <section className="hero-payment-gateway bg-dark ptb-120 pb-60">
               <div className="container">
                   <div className="row align-items-center justify-content-between">
                       <div className="col-lg-6 col-md-10">
@@ -287,6 +287,76 @@ function Clients() {
                                     <li>
                                         <div className="single-integration bg-white">
                                             <img src="assets/img/clients/utopus.png" alt="integration" className="img-fluid" />
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="single-integration bg-white">
+                                            <img src="assets/img/clients/susten.png" alt="integration" className="img-fluid" />
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="single-integration bg-white">
+                                            <img src="assets/img/clients/macleods.png" alt="integration" className="img-fluid" />
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="single-integration bg-white">
+                                            <img src="assets/img/clients/lsssdc.png" alt="integration" className="img-fluid" />
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="single-integration bg-white">
+                                            <img src="assets/img/clients/dreddy.png" alt="integration" className="img-fluid" />
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="single-integration bg-white">
+                                            <img src="assets/img/clients/reckittbeckiser.png" alt="integration" className="img-fluid" />
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="single-integration bg-white">
+                                            <img src="assets/img/clients/neclife.png" alt="integration" className="img-fluid" />
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="single-integration bg-white">
+                                            <img src="assets/img/clients/mankind.png" alt="integration" className="img-fluid" />
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="single-integration bg-white">
+                                            <img src="assets/img/clients/mpect.png" alt="integration" className="img-fluid" />
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="single-integration bg-white">
+                                            <img src="assets/img/clients/alcon.png" alt="integration" className="img-fluid" />
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="single-integration bg-white">
+                                            <img src="assets/img/clients/itc.png" alt="integration" className="img-fluid" />
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="single-integration bg-white">
+                                            <img src="assets/img/clients/sunpharma.png" alt="integration" className="img-fluid" />
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="single-integration bg-white">
+                                            <img src="assets/img/clients/sanofi.png" alt="integration" className="img-fluid" />
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="single-integration bg-white">
+                                            <img src="assets/img/clients/hul.png" alt="integration" className="img-fluid" />
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="single-integration bg-white">
+                                            <img src="assets/img/clients/marksans.png" alt="integration" className="img-fluid" />
                                         </div>
                                     </li>
                                 </ul>

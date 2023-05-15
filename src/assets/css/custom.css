@@ -994,7 +994,7 @@ img.fawfrt.img-fluid.feet {
   opacity: 1;
 }
 .moviecard:hover .movietext {
-  z-index: 1000;
+  z-index: 0;
   opacity: 1;
   background: #2f3a79e0;
   border: 2px solid #071833;
@@ -1278,6 +1278,22 @@ img.fawfrt.img-fluid.feet {
 
 
 @media (max-width:767px){
+    .ptm-70{
+        padding-top: 70px;
+    }
+    .affix .afotherbtnbottom {
+        display: none !important;
+    }
+    .affix .signinblockmobile{
+        display: block !important;
+        margin-right: 30px !important;
+    }
+    .feature-container .ptb-80 {
+        padding: 60px 0;
+    }
+    .creatorbg {
+        padding-top: 90px;
+    }
     .journeypagec {
         padding: 10px 5px;
     }

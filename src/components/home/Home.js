@@ -42,7 +42,7 @@ function Home() {
                                     <div className="col-lg-9">
                                         <div className="feature-tab-info">
                                             <p className="lead">Built to scale immersive learning across multiple levels in any enterprise, the Simulanis Learning Suite offers a powerful alternative to conventional methods of learning and development.</p>
-                                            <a href="#" className="btn btn-outline-danger text-decoration-none mt-3">Know more
+                                            <a href="/learn" className="btn btn-outline-danger text-decoration-none mt-3">Know more
                                                 <i className="fas fa-arrow-right ms-2"></i></a>
                                         </div>
                                         <img src="assets/img/ra.png" alt="feature tab" className="img-fluid mt-2" />
