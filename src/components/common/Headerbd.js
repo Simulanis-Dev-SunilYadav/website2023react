@@ -62,14 +62,14 @@ function Headerbd() {
                                             <a href="/coe-setup" className="dropdown-link">
                                                 <div className="drop-title">COE set up</div>
                                             </a>
-                                            <a href="#" className="dropdown-link">
-                                                <div className="drop-title">VR custom solutions</div>
+                                            <a href="/custom-solutions" className="dropdown-link">
+                                                <div className="drop-title">Custom solutions</div>
                                             </a>
-                                           <a href="#" className="dropdown-link">
+                                           <a href="/videos-and-animations" className="dropdown-link">
                                                 <div className="drop-title">Videos & animations</div>
                                             </a>
                                             <a href="http://academy.simulanis.io/" target='_blank' className="dropdown-link">
-                                                <div className="drop-title">Become in Expert</div>
+                                                <div className="drop-title">Become an expert</div>
                                             </a>
                                         </div>
                                     </div>
@@ -98,10 +98,10 @@ function Headerbd() {
                                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/sales-support" className="dropdown-link">
                                                 <div className="drop-title">Sales support</div>
                                             </a>
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/technical-support" className="dropdown-link">
                                                 <div className="drop-title">Technical support</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
@@ -120,7 +120,7 @@ function Headerbd() {
                                             <a href="/about" className="dropdown-link px-0">
                                                 <div className="drop-title">Our journey so far</div>
                                             </a>
-                                            <a href="#" className="dropdown-link px-0">
+                                            <a href="/our-values" className="dropdown-link px-0">
                                                 <div className="drop-title">Our values</div>
                                             </a>
                                             <a href="/awards" className="dropdown-link">
@@ -134,7 +134,10 @@ function Headerbd() {
                                             </a>                                        
                                             <a href="/become-partner" className="dropdown-link">
                                                 <div className="drop-title">Become a partner</div>
-                                            </a>                                                                            
+                                            </a> 
+                                            <a href="/news" className="dropdown-link">
+                                                <div className="drop-title">News</div>
+                                            </a>                                                                               
                                                                                                         
                                         </div>
                                     </div>
@@ -251,7 +254,7 @@ function Headerbd() {
                                         <a href="#" className="dropdown-link px-0">
                                             <div className="drop-title">Our Story</div>
                                         </a>
-                                        <a href="#" className="dropdown-link px-0">
+                                        <a href="/our-values" className="dropdown-link px-0">
                                             <div className="drop-title">Our Values</div>
                                         </a>
                                         <a href="#" className="dropdown-link">

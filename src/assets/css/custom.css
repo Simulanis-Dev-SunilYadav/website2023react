@@ -105,6 +105,11 @@
 [data-bs-theme="dark"] .read-more-link {
     color: #fff;
 }
+
+[data-bs-theme="dark"] .contact-promo-info a{
+    color: #b6b6b6;
+}
+
 [data-bs-theme="dark"] .feature-tab-list-2 li a.active {
     background: #c2282d;
     border-color: #c2282d;
@@ -923,7 +928,15 @@ img.fawfrt.img-fluid.feet {
     object-fit: cover;
 }
 
+.rasonvidoesde{
+    background: url('../img/payment-step.jpg')no-repeat center center / cover
+}
 
+.usebgcasef{
+    background:
+      url('../img/app-two-mockup-bg.png')no-repeat
+      center center / cover
+}
 
 .moviebox {
   display: flex;
@@ -981,7 +994,7 @@ img.fawfrt.img-fluid.feet {
   opacity: 1;
 }
 .moviecard:hover .movietext {
-  z-index: 1000;
+  z-index: 0;
   opacity: 1;
   background: #2f3a79e0;
   border: 2px solid #071833;
@@ -1084,15 +1097,203 @@ img.fawfrt.img-fluid.feet {
 }
 
 
+.team-img img {
+    transition: all 0.3s ease;
+    height: 245px;
+    width: 100%;
+}
+
+.pt-40{
+    padding-top: 40px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+
+
+.usecaselsit .uslistimg .team-img{
+    flex: .30;
+}
+.usecaselsit .uslistimg .team-info{
+    flex: .65;
+}
+.usecaselsit .uslistimg {
+    padding: 0px;
+    height: 200px;
+}
+.text-muted1{
+    color: #a7a7a7 !important;
+    font-weight: 500;
+    font-size: 12px !important;
+}
+.industryrtg{
+    display: flex;
+    align-items: center;
+}
+.industryrtg svg{
+    width: 16px;
+}
+.usecaselsit .searchfilter .form-control{
+    border-color: #727272;
+}
+
+.usecasesdetailde .integration-logo{
+    margin-bottom: 10px;
+}
+
+.usecasesdetailde .connected-app-content p{
+    font-size: 15px;
+}
+
+.fivemmodal img {
+    height: 55px;
+    margin-bottom: 5px;
+    object-fit: contain;
+}
+
+.fivemmodal h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin: 5px 0px;
+}
+.fivemmodal p{
+    font-size: 14px;
+}
+
+.section.products {
+    padding: 45px 0px 45px 0px;
+}
+
+
+.ctaq2r{
+    background-image: url('../../../public/assets/img/services/customsolutions/ctasd.png');
+    background-position: center;
+}
 
 
 
+/* servics provess box */
+.powersimg {
+    display: flex;
+}
+.powersimg .box1 {
+    flex: 0.4;
+    padding: 15px;
+}
+.powersimg .box {
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.powersimg .box:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    transform: rotate(0) scale(2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+}
+.powersimg .box img {
+    width: 100%;
+    transition: all 0.5s ease 0s;
+    height: 92.5vh;
+    object-fit: contain;
+}
+.powersimg .box .box-content {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    z-index: 2;
+    transition: all 0.5s ease-out 0s;
+    padding: 0px 15px;
+}
+.powersimg .box:hover .box-content {
+    opacity: 1;
+}
+.powersimg .box:hover:before {
+    transform: rotate(360deg) scale(2);
+    background: #ca373c;
+}
+.box-content h4 {
+    color: #fff;
+    font-size: 18px;
+}
+.box-content p{
+    font-size: 14px;
+    color: #ffffffd8;
+}
+
+.powersimg .box2 {
+    flex: 0.6;
+}
+.powersimg .box221 {
+    display: flex;
+}
+
+.powersimg .box221 .box21 {
+    flex: 0.6;
+    padding: 15px 0px;
+}
+.powersimg .box221 .box22 {
+    flex: 0.4;
+    padding: 15px;
+}
+.powersimg .box221 .box21 img {
+    height: 45vh;
+    object-fit: cover;
+}
+.powersimg .box221 .box22 img {
+    height: 45vh;
+    object-fit: cover;
+}
+
+.box222 .box21 {
+    padding: 0px 15px 15px 15px !important;
+}
+.box222 .box22 {
+    padding: 0px !important;
+}
 
 
+.keybenefits .service-info-wrap .h6, .keybenefits .feature-info-wrap .h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: #404040;
+    line-height: 1.3;
+}
 
+.datedf{
+    font-size: 10px;
+}
 
 
 @media (max-width:767px){
+    .ptm-70{
+        padding-top: 70px;
+    }
+    .affix .afotherbtnbottom {
+        display: none !important;
+    }
+    .affix .signinblockmobile{
+        display: block !important;
+        margin-right: 30px !important;
+    }
+    .feature-container .ptb-80 {
+        padding: 60px 0;
+    }
+    .creatorbg {
+        padding-top: 90px;
+    }
     .journeypagec {
         padding: 10px 5px;
     }

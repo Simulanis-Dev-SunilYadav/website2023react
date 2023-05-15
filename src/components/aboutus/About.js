@@ -82,7 +82,7 @@ function About() {
         </section>
 
 
-                <section className=" support-content ptb-40 bg-light-subtle">
+          <section className=" support-content ptb-40 bg-light-subtle">
             <div className="container">
                 <div className="row justify-content-center text-center">
                     <div className="col-md-8">

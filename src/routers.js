@@ -1,7 +1,5 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Header from './components/common/Header'
-import Footer from './components/common/Footer'
 import Home from './components/home/Home'
 import Productivity from './components/home/products/assist/Productivity'
 import Creator from './components/home/products/creator/Creator'
@@ -27,6 +25,20 @@ import SalesSupport from './components/support/SalesSupport'
 import TechnicalSupport from './components/support/TechnicalSupport'
 import CaseStudyDetail from './components/case_study/CaseStudyDetail'
 import CoeSetup from './components/services/CoeSetup'
+import VideosAnimations from './components/services/VideosAnimations'
+import UseCases from './components/usecase/UseCases'
+import UseCaseDetail from './components/usecase/UseCaseDetail'
+import CustomSolutions from './components/services/customsolutions/CustomSolutions'
+import AR from './components/services/customsolutions/AR'
+import VR from './components/services/customsolutions/VR'
+import MR from './components/services/customsolutions/MR'
+import OurValues from './components/aboutus/OurValues'
+import News from './components/aboutus/news/News'
+import NewsAll from './components/aboutus/news/NewsAll'
+import EventsAll from './components/aboutus/news/EventsAll'
+import Faq from './components/faq/Faq'
+import Clients from './components/clients/Clients'
+import GetInTouch from './components/contactus/GetInTouch'
 
 
 function Routers() {
@@ -50,6 +62,10 @@ function Routers() {
             {/* About */}
             <Route path="/about" element={<About/>}/>
             <Route path="/awards" element={<Awards/>}/>
+            <Route path="/our-values" element={<OurValues/>}/>
+            <Route path="/news" element={<News/>}/>
+            <Route path="/news-list" element={<NewsAll/>}/>
+            <Route path="/events-list" element={<EventsAll/>}/>
 
             {/* Authentication */}
             <Route path="/login" element={<Login/>}/>
@@ -65,15 +81,34 @@ function Routers() {
             <Route path="/applynow" element={<ApplyNow/>}/>
 
             {/* Case Study */}
-            <Route path="case-study" element={<CaseStudy/>} />
-            <Route path="case-study-detail" element={<CaseStudyDetail/>} />
+            <Route path="/case-study" element={<CaseStudy/>} />
+            <Route path="/case-study-detail" element={<CaseStudyDetail/>} />
             
             {/* Support */}
-            <Route path="sales-support" element={<SalesSupport/>}/>
-            <Route path="technical-support" element={<TechnicalSupport/>}/>
+            <Route path="/sales-support" element={<SalesSupport/>}/>
+            <Route path="/technical-support" element={<TechnicalSupport/>}/>
+
+            {/* Get in touch */}
+            <Route path="/get-in-touch" element={<GetInTouch/>} />
 
             {/* Services */}
             <Route path="/coe-setup" element={<CoeSetup/>}/>
+            <Route path="/videos-and-animations" element={<VideosAnimations/>}/>
+            <Route path="/custom-solutions" element={<CustomSolutions/>}/>
+            <Route path="/augmented-reality" element={<AR/>}/>
+            <Route path="/virtual-reality" element={<VR/>}/>
+            <Route path="/mixed-reality" element={<MR/>}/>
+
+            {/* Use Cases */}
+            <Route path="/use-cases" element={<UseCases/>}/>
+            <Route path="/use-case-detail" element={<UseCaseDetail/>}/>
+
+            {/* Faq */}
+            <Route path="/faq" element={<Faq/>}/>
+            
+            {/* ClientsList */}
+            <Route path="/clients" element={<Clients/>}/>
+            
 
         </Routes>
     </>

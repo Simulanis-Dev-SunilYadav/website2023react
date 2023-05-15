@@ -7,7 +7,7 @@ function CaseStudy() {
   return (
     <>
         <Headerbd/>
-        <section className="page-header bg-dark position-relative casestudybg overflow-hidden ptb-120 pb-40">
+        <section className="page-header bg-gradient position-relative casestudybg overflow-hidden ptb-120 pb-40">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-7 col-md-12">

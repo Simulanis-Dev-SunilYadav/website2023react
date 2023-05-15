@@ -65,14 +65,14 @@ function Header() {
                                             <a href="/coe-setup" className="dropdown-link">
                                                 <div className="drop-title">COE set up</div>
                                             </a>
-                                            <a href="#" className="dropdown-link">
-                                                <div className="drop-title">VR custom solutions</div>
+                                            <a href="/custom-solutions" className="dropdown-link">
+                                                <div className="drop-title">Custom solutions</div>
                                             </a>
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/videos-and-animations" className="dropdown-link">
                                                 <div className="drop-title">Videos & animations</div>
                                             </a>
                                             <a href="http://academy.simulanis.io/" target='_blank' className="dropdown-link">
-                                                <div className="drop-title">Become in Expert</div>
+                                                <div className="drop-title">Become an expert</div>
                                             </a>
                                         </div>
                                     </div>
@@ -83,7 +83,7 @@ function Header() {
                                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white ">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/clients" className="dropdown-link">
                                                 <div className="drop-title">Clients</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
@@ -101,10 +101,10 @@ function Header() {
                                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                                     <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                         <div className="dropdown-grid-item bg-white">
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/sales-support" className="dropdown-link">
                                                 <div className="drop-title">Sales support</div>
                                             </a>
-                                            <a href="#" className="dropdown-link">
+                                            <a href="/technical-support" className="dropdown-link">
                                                 <div className="drop-title">Technical support</div>
                                             </a>
                                             <a href="#" className="dropdown-link">
@@ -123,7 +123,7 @@ function Header() {
                                             <a href="/about" className="dropdown-link px-0">
                                                 <div className="drop-title">Our journey so far</div>
                                             </a>
-                                            <a href="#" className="dropdown-link px-0">
+                                            <a href="/our-values" className="dropdown-link px-0">
                                                 <div className="drop-title">Our values</div>
                                             </a>
                                             <a href="/awards" className="dropdown-link">
@@ -138,6 +138,9 @@ function Header() {
                                             <a href="/become-partner" className="dropdown-link">
                                                 <div className="drop-title">Become a partner</div>
                                             </a>                                                                                                                                      
+                                            <a href="/news" className="dropdown-link">
+                                                <div className="drop-title">News</div>
+                                            </a>                                                                                                                                      
                                         </div>
                                     </div>
                                 </div>
@@ -149,7 +152,7 @@ function Header() {
                             <div className="tt-theme-light" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Light"><i className="flaticon-sun-1 fs-lg"></i></div>
                             <div className="tt-theme-dark" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Dark"><i className="flaticon-moon-1 fs-lg"></i></div>
                         </a> 
-                        <a href="#" className="btn btn-outline-danger btn-sm text-decoration-none me-2 ms-3 d-none d-md-block d-lg-block">Get in touch</a>
+                        <a href="/get-in-touch" className="btn btn-outline-danger btn-sm text-decoration-none me-2 ms-3 d-none d-md-block d-lg-block">Get in touch</a>
                         <a href="#" className="btn btn-primary btn-sm btn-link text-decoration-none  d-none d-md-block d-lg-block"><i className="fa fa-cart-shopping"></i> Store</a>
                     </div>
                 </div>
@@ -212,14 +215,14 @@ function Header() {
                                         <a href="/coe-setup" className="dropdown-link">
                                             <div className="drop-title">COE set up</div>
                                         </a>
-                                        <a href="#" className="dropdown-link">
-                                            <div className="drop-title">VR custom solutions</div>
+                                        <a href="/custom-solutions" className="dropdown-link">
+                                            <div className="drop-title">Custom solutions</div>
                                         </a>
-                                        <a href="#" className="dropdown-link">
+                                        <a href="/videos-and-animations" className="dropdown-link">
                                             <div className="drop-title">Videos & animations</div>
                                         </a>
                                         <a href="http://academy.simulanis.io/" target='_blank' className="dropdown-link">
-                                            <div className="drop-title">Become in Expert</div>
+                                            <div className="drop-title">Become an expert</div>
                                         </a>
                                     </div>
                                 </div>
@@ -248,10 +251,10 @@ function Header() {
                             <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                                 <div className="dropdown-grid rounded-custom width-full homepage-dropdown">
                                     <div className="dropdown-grid-item bg-white">
-                                        <a href="#" className="dropdown-link">
+                                        <a href="/sales-support" className="dropdown-link">
                                             <div className="drop-title">Sales support</div>
                                         </a>
-                                        <a href="#" className="dropdown-link">
+                                        <a href="/technical-support" className="dropdown-link">
                                             <div className="drop-title">Technical support</div>
                                         </a>
                                         <a href="#" className="dropdown-link">
@@ -269,7 +272,7 @@ function Header() {
                                         <a href="/about" className="dropdown-link px-0">
                                             <div className="drop-title">Our journey so far</div>
                                         </a>
-                                        <a href="#" className="dropdown-link px-0">
+                                        <a href="/our-values" className="dropdown-link px-0">
                                             <div className="drop-title">Our values</div>
                                         </a>
                                         <a href="/awards" className="dropdown-link">

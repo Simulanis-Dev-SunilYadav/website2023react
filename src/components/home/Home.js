@@ -10,7 +10,7 @@ function Home() {
     <>
         <Header/>
         <Banner/>
-          <section className="why-us ptb-40 bg-light-subtle productfgt">
+        <section className="why-us ptb-40 bg-light-subtle productfgt">
             <div className="container">
                 <div className="row justify-content-center align-content-center">
                     <div className="col-md-10 col-lg-8">
@@ -42,7 +42,7 @@ function Home() {
                                     <div className="col-lg-9">
                                         <div className="feature-tab-info">
                                             <p className="lead">Built to scale immersive learning across multiple levels in any enterprise, the Simulanis Learning Suite offers a powerful alternative to conventional methods of learning and development.</p>
-                                            <a href="#" className="btn btn-outline-danger text-decoration-none mt-3">Know more
+                                            <a href="/learn" className="btn btn-outline-danger text-decoration-none mt-3">Know more
                                                 <i className="fas fa-arrow-right ms-2"></i></a>
                                         </div>
                                         <img src="assets/img/ra.png" alt="feature tab" className="img-fluid mt-2" />
@@ -356,7 +356,7 @@ function Home() {
                     <div className="col-lg-7 col-md-12">
                         <div className="section-heading">
                             <h2>Trusted Clients</h2>
-                            <p>We have served more than 120+ enterprises across the globe using our solutions</p>
+                            <p>We have served more than 150+ enterprises across the globe using our solutions</p>
                         </div>
                     </div>
                 </div>
@@ -810,7 +810,7 @@ function Home() {
                             <img class="thumb" src="assets/img/blogimg/plant.jpg" alt="" />
                             <img class="hero" src="assets/img/blogimg/plant.jpg" alt="" />
                             <div class="movietext"> 
-                            <a href="#">
+                            <a href="/case-study-detail">
                                 <p><i class="fa fa-plus"></i></p>
                                 Compression Machine</a>
                             </div>
@@ -820,7 +820,7 @@ function Home() {
                             <img class="hero" src="assets/img/blogimg/r_ban2.png" alt="" />
                             <div class="movietext">
                             
-                            <a href="#">
+                            <a href="case-study-detail">
                             <p><i class="fa fa-plus"></i></p>
                             API Dispensing</a>
                             </div>
@@ -829,7 +829,7 @@ function Home() {
                             <img class="thumb" src="assets/img/blogimg/training.jpg" alt="" />
                             <img class="hero" src="assets/img/blogimg/training.jpg" alt="" />
                             <div class="movietext">
-                            <a href="#">
+                            <a href="/case-study-detail">
                             <p><i class="fa fa-plus"></i></p>
                             Industrial Training</a>
                             </div>
@@ -838,7 +838,7 @@ function Home() {
                             <img class="thumb" src="assets/img/blogimg/plantd.jpg" alt="" />
                             <img class="hero" src="assets/img/blogimg/plantd.jpg" alt="" />
                             <div class="movietext">
-                            <a target="_blank" href="#">
+                            <a href="/case-study-detail">
                             <p><i class="fa fa-plus"></i></p>Injection Moulding</a>
                             </div>
                         </div>
@@ -928,7 +928,7 @@ function Home() {
             </div>
         </section>
 
-          <Footer/>
+        <Footer/>
 
     </>
   )

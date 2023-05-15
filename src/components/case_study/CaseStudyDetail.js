@@ -10,7 +10,7 @@ function CaseStudyDetail() {
   return (
     <>
         <Headerbd/>
-            <section className="page-header bg-dark position-relative casestudybg overflow-hidden pt-160 pb-80">
+            <section className="page-header bg-gradient position-relative casestudybg overflow-hidden pt-160 pb-80">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-7 col-md-12">
@@ -24,7 +24,7 @@ function CaseStudyDetail() {
                             <p><strong>Timeline:</strong>  August 2019- December 2019</p>
                             <p><strong>Hardware:</strong>  Mobile VR (Meta Quest 1 & 2 and Pico Neo 2 & 3)</p>
                             <p><strong>Industry:</strong>  Pharmaceutical</p>
-                            <p><strong>Services:</strong>  Bespoke Development</p>
+                            <p><strong>Services:</strong>  Bespoke development</p>
                           </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ function CaseStudyDetail() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-7">
-                            <h2>Problem Statement </h2>
+                            <h2>Problem statement </h2>
                             <p>The common problem faced by the compression  machine operators lies in the understanding of the several complex tasks performed within the  compression room. </p>
                             <p>The current training methods used in the industries lack engagement and thereby effectiveness. Conventionally, employees are given a Standard Operating Procedure  (SOP) document to read through —in order to ‘learn’ the 
                                 steps of operating a complex machinery. Employees are 
@@ -75,7 +75,7 @@ function CaseStudyDetail() {
                             <img src="assets/img/casestudy/complexity.png" className='img-fluid' alt="" />
                         </div>
                         <div className="col-md-7">
-                            <h2>Complexities Involved </h2>
+                            <h2>Complexities involved </h2>
                             <p>A tablet compression machine is an assembly of 
                                 many different parts that coordinate to perform 
                                 a desired function.. So, assembling all the 
@@ -126,7 +126,7 @@ function CaseStudyDetail() {
                         <div className="col-lg-6 col-md-12">
                             <div className="feature-content-wrap">
                                 <div className="section-heading">
-                                    <h2>Advantages Pharma VR</h2>
+                                    <h2>Advantages pharma VR</h2>
                                     <p>Quickly incubate functional channels with multidisciplinary architectures authoritatively
                                         fabricate formulate exceptional innovation.</p>
                                 </div>
@@ -136,7 +136,7 @@ function CaseStudyDetail() {
                                             <i className="fas fa-check text-white"></i>
                                         </div>
                                         <div className="icon-content">
-                                            <h3 className="h5">Faster Learning</h3>
+                                            <h3 className="h5">Faster learning</h3>
                                             <p>The experiential training of AR/MR 
                                                 solutions gives real time-feedback, 
                                                 improve efficiency of skills transfer, 
@@ -150,7 +150,7 @@ function CaseStudyDetail() {
                                             <i className="fas fa-check text-white"></i>
                                         </div>
                                         <div className="icon-content">
-                                            <h3 className="h5">Reduce Cost</h3>
+                                            <h3 className="h5">Reduce cost</h3>
                                             <p>As employees are able to learn faster, 
                                                 the time taken to train an individual is 
                                                 significantly reduced, thus reducing 
@@ -164,7 +164,7 @@ function CaseStudyDetail() {
                                             <i className="fas fa-check text-white"></i>
                                         </div>
                                         <div className="icon-content">
-                                            <h3 className="h5">Enhance Safety</h3>
+                                            <h3 className="h5">Enhance safety</h3>
                                             <p>Practice in a ‘risk free’ environment which 
                                                 can reduce the accidental cases and 
                                                 number of safety violations. 
@@ -176,7 +176,7 @@ function CaseStudyDetail() {
                                             <i className="fas fa-check text-white"></i>
                                         </div>
                                         <div className="icon-content">
-                                            <h3 className="h5">Increase Motivation</h3>
+                                            <h3 className="h5">Increase motivation</h3>
                                             <p>This novel and fun method of training motivates employees to practice and learn. 
                                             </p>
                                         </div>
